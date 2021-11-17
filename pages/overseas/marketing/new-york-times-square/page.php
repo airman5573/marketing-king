@@ -176,11 +176,8 @@
   <div class="ad-component">
     <h1 class="title">결과보고서 제공</h1>
     <h4 class="sub-title">타임스퀘어 광고 사진 1매</h4>
-    <div class="tag-container">
-      <div class="img-container box-shadow-1 mb-30">
-        <img src="/assets/times-square-6.png" alt="">
-        <div class="tag" style="right: 9px; bottom: -15px;">미국, 캐나다</div>
-      </div>
+    <div class="img-container box-shadow-1 mb-30">
+      <img src="/assets/times-square-6.png" alt="">
     </div>
     <h4 class="sub-title mb-50">미디어 링크가 포함된 커버리지</h4>
     <div class="tag-container mb-50">

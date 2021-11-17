@@ -173,7 +173,7 @@
       </div>
     </div>
   </div>
-  <div class="ad-component">
+  <div class="ad-component mb-80">
     <h1 class="title">결과보고서 제공</h1>
     <h4 class="sub-title">타임스퀘어 광고 사진 1매</h4>
     <div class="img-container box-shadow-1 mb-30">

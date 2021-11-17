@@ -1,0 +1,13 @@
+.notice {
+  position: relative;
+  padding-left: 6px;
+  font-size: 12px;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  &::before {
+    position: absolute;
+    content: '*';
+    left: 0;
+    top: 0;
+  }
+}

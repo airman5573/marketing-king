@@ -1,0 +1,133 @@
+.table-container {
+  position: relative;
+  margin-right: -10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  .navigation {
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 40%;
+    width: 24px;
+    animation: blink-effect 1.2s ease infinite;
+    &.left {
+      transform: rotateY(180deg);
+      left: 80px;
+    }
+  }
+  @keyframes blink-effect {
+    0% { opacity: 0.4; }
+    50% { opacity: 0.6; }
+    100% { opacity: 0.4; }
+  }
+  table {
+    position: relative;
+    table-layout: fixed;
+    font-size: 12px;
+    letter-spacing: -0.05em;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 619px;
+    transition: all 1s ease;
+    &, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      text-align:center;
+      vertical-align:middle;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      white-space: nowrap;
+    }
+    .sticky-col {
+      position: sticky;
+      left: -2px;
+      width: 71px;
+      background-color: $color-gray-1;
+    }
+    thead th,
+    tbody tr:last-child td:first-child {
+      color: white;
+    }
+    thead th:first-child,
+    tbody tr:last-child td:first-child {
+      background-color: $color-gray-9;
+    }
+  }
+  &.col-4 table {
+    // 위쪽
+    thead th:nth-child(2) {
+      background-color: $color-blue-6;
+    }
+    thead th:nth-child(3) {
+      background-color: $color-blue-7;
+    }
+    thead th:nth-child(4) {
+      background-color: $color-blue-8;
+    }
+    thead th:nth-child(5) {
+      background-color: $color-blue-9;
+    }
+
+    // 아래쪽
+    tbody tr:last-child td:nth-child(2) {
+      background-color: $color-blue-1;
+    }
+    tbody tr:last-child td:nth-child(3) {
+      background-color: $color-blue-2;
+    }
+    tbody tr:last-child td:nth-child(4) {
+      background-color: $color-blue-4;
+    }
+    tbody tr:last-child td:nth-child(5) {
+      background-color: $color-blue-5;
+    }
+  }
+
+  &.col-3 table {
+    thead th:nth-child(2) {
+      background-color: $color-blue-7;
+    }
+    thead th:nth-child(3) {
+      background-color: $color-blue-8;
+    }
+    thead th:nth-child(4) {
+      background-color: $color-blue-9;
+    }
+
+    // 아래쪽
+    tbody tr:last-child td:nth-child(2) {
+      background-color: $color-blue-1;
+    }
+    tbody tr:last-child td:nth-child(3) {
+      background-color: $color-blue-2;
+    }
+    tbody tr:last-child td:nth-child(4) {
+      background-color: $color-blue-3;
+    }
+  }
+
+  &.col-2 {
+    margin-right: 0;
+    table {
+      width: 100%;
+      thead th:nth-child(2) {
+        background-color: $color-blue-7;
+      }
+      thead th:nth-child(3) {
+        background-color: $color-blue-9;
+      }
+
+      // 아래쪽
+      tbody tr:last-child td:nth-child(2) {
+        background-color: $color-blue-1;
+      }
+      tbody tr:last-child td:nth-child(3) {
+        background-color: $color-blue-2;
+      }
+    }
+    .navigation {
+      display: none;
+    }
+  }
+}

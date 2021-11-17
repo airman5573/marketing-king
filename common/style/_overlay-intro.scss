@@ -1,0 +1,25 @@
+.overlay-intro {
+  position: relative;
+  margin-left: -1 * $size-site-padding;
+  margin-right: -1 * $size-site-padding;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(21, 25, 56, 0.6);
+    mix-blend-mode: normal;
+  }
+  p {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: $color-white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    letter-spacing: -0.06em;
+  }
+}

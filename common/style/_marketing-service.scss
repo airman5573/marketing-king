@@ -1,0 +1,59 @@
+.service {
+  margin-bottom: 30px;
+  & > h2 {
+    margin-bottom: 20px;
+    letter-spacing: -0.03em;
+  }
+  .service-contents {
+    margin-bottom: 50px;
+    @include box-shadow(10px);
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    .service-item {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      & > .left {
+        padding-right: 20px;
+        img {
+          width: 54px;
+        }
+      }
+      & > .right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        .content {
+          flex: 1;
+          padding-right: 30px;
+          h3 {
+            margin: 0;
+            margin-bottom: 8px;
+            font-weight: 500;
+            letter-spacing: -0.015em;
+          }
+          p {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 16px;
+            letter-spacing: -0.05em;
+            color: $color-gray-6;
+          }
+        }
+        .icon {
+          padding-right: 5px;
+          img {
+            width: 6px;
+            height: 12px;
+          }
+        }
+      }
+    }
+    .divider {
+      height: 1px;
+      background-color: $color-gray-2;
+    }
+  }
+}

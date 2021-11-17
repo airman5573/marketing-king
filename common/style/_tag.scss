@@ -1,0 +1,18 @@
+.tag-container {
+  position: relative;
+}
+
+.tag {
+  position: absolute;
+  font-size: 12px;
+  background-color: $color-main;
+  color: $color-white;
+  padding: 12px;
+  text-align: center;
+  letter-spacing: -0.1em;
+}
+
+.tag-2 {
+  @extend .tag;
+  padding: 12px;
+}

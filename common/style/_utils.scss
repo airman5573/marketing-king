@@ -1,0 +1,244 @@
+// Spacing
+@for $i from 0 through 100 {
+  .my-#{$i} {
+    margin-top: #{$i}px !important;
+    margin-bottom: #{$i}px !important;
+  }
+  .mx-#{$i} {
+    margin-left: #{$i}px !important;
+    margin-right: #{$i}px !important;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px !important;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}px !important;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}px !important;
+  }
+  .py-#{$i} {
+    padding-top: #{$i}px !important;
+    padding-bottom: #{$i}px !important;
+  }
+  .px-#{$i} {
+    padding-left: #{$i}px !important;
+    padding-right: #{$i}px !important;
+  }
+  .pt-#{$i} {
+    padding-top: #{$i}px !important;
+  }
+  .pr-#{$i} {
+    padding-right: #{$i}px !important;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i}px !important;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i}px !important;
+  }
+}
+
+
+// Font
+@for $i from 10 through 36 {
+  .fs-#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
+
+@for $i from 10 through 50 {
+  .lh-#{$i} {
+    line-height: #{$i}px !important;
+  }
+}
+
+@for $i from 1 through 20 {
+  .ls-#{$i} {
+    letter-spacing: #{-0.01 * $i}em !important;
+  }
+}
+
+@for $i from 1 through 9 {
+  .fw-#{$i}00 {
+    font-weight: #{100 * $i} !important;
+  }
+}
+
+.txt-underline {
+  text-decoration: underline  !important;
+}
+
+.txt-align-center {
+  text-align: center;
+}
+
+
+// Color
+.fc-white {
+  color: $color-white !important;
+}
+.fc-black {
+  color: $color-black !important;
+}
+.fc-bluegreen {
+  color: $color-bluegreen !important;
+}
+.fc-main {
+  color: $color-main !important;
+}
+.fc-green {
+  color: $color-green !important;
+}
+.fc-red {
+  color: $color-red !important;
+}
+.fc-lightblue {
+  color: $color-lightblue !important;
+}
+
+.fc-gray-1 {
+  color: $color-gray-1 !important;
+}
+.fc-gray-2 {
+  color: $color-gray-2 !important;
+}
+.fc-gray-3 {
+  color: $color-gray-3 !important;
+}
+.fc-gray-4 {
+  color: $color-gray-4 !important;
+}
+.fc-gray-5 {
+  color: $color-gray-5 !important;
+}
+.fc-gray-6 {
+  color: $color-gray-6 !important;
+}
+.fc-gray-7 {
+  color: $color-gray-7 !important;
+}
+.fc-gray-8 {
+  color: $color-gray-8 !important;
+}
+.fc-gray-9 {
+  color: $color-gray-9 !important;
+}
+
+.fc-blue-1 {
+  color: $color-blue-1 !important;
+}
+.fc-blue-2 {
+  color: $color-blue-2 !important;
+}
+.fc-blue-3 {
+  color: $color-blue-3 !important;
+}
+.fc-blue-4 {
+  color: $color-blue-4 !important;
+}
+.fc-blue-5 {
+  color: $color-blue-5 !important;
+}
+.fc-blue-6 {
+  color: $color-blue-6 !important;
+}
+.fc-blue-7 {
+  color: $color-blue-7 !important;
+}
+.fc-blue-8 {
+  color: $color-blue-8 !important;
+}
+.fc-blue-9 {
+  color: $color-blue-9 !important;
+}
+.fc-blue-10 {
+  color: $color-blue-10 !important;
+}
+
+.bc-white {
+  background-color: $color-white !important;
+}
+.bc-black {
+  background-color: $color-black !important;
+}
+.bc-bluegreen {
+  background-color: $color-bluegreen !important;
+}
+.bc-main {
+  background-color: $color-main !important;
+}
+.bc-green {
+  background-color: $color-green !important;
+}
+.bc-red {
+  background-color: $color-red !important;
+}
+.bc-navy {
+  background-color: $color-navy !important;
+}
+.bc-lightblue {
+  background-color: $color-lightblue !important;
+}
+
+.bc-gray-1 {
+  background-color: $color-gray-1 !important;
+}
+.bc-gray-2 {
+  background-color: $color-gray-2 !important;
+}
+.bc-gray-3 {
+  background-color: $color-gray-3 !important;
+}
+.bc-gray-4 {
+  background-color: $color-gray-4 !important;
+}
+.bc-gray-5 {
+  background-color: $color-gray-5 !important;
+}
+.bc-gray-6 {
+  background-color: $color-gray-6 !important;
+}
+.bc-gray-7 {
+  background-color: $color-gray-7 !important;
+}
+.bc-gray-8 {
+  background-color: $color-gray-8 !important;
+}
+.bc-gray-9 {
+  background-color: $color-gray-9 !important;
+}
+
+.bc-blue-1 {
+  background-color: $color-blue-1 !important;
+}
+.bc-blue-2 {
+  background-color: $color-blue-2 !important;
+}
+.bc-blue-3 {
+  background-color: $color-blue-3 !important;
+}
+.bc-blue-4 {
+  background-color: $color-blue-4 !important;
+}
+.bc-blue-5 {
+  background-color: $color-blue-5 !important;
+}
+.bc-blue-6 {
+  background-color: $color-blue-6 !important;
+}
+.bc-blue-7 {
+  background-color: $color-blue-7 !important;
+}
+.bc-blue-8 {
+  background-color: $color-blue-8 !important;
+}
+.bc-blue-9 {
+  background-color: $color-blue-9 !important;
+}
+.bc-blue-10 {
+  background-color: $color-blue-10 !important;
+}

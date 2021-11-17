@@ -1,0 +1,15 @@
+#header {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 57px;
+  display: flex;
+  background-color: white;
+  @include center();
+  .menu-open-btn {
+    position: absolute;
+    left: $size-site-padding;
+  }
+}

@@ -1,0 +1,66 @@
+.menu-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 9999;
+  display: none;
+}
+
+#menu {
+  width: $size-menu-width;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-left: 20px;
+  background-color: white;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  & > ul > li.active {
+    & > span,
+    & > a,
+    &.has-child li.active > a {
+      color: $color-main;
+    }
+  }
+
+  &.open {
+    transform: translate(0, 0);
+  }
+
+  .menu-close-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  & > ul > li {
+    ul {
+      z-index: 2;
+      display: none;
+    }
+    &.has-child {
+      position: relative;
+      &.active > ul {
+        display: block;
+      }
+      & > ul {
+        position: absolute;
+        top: 0;
+        left: 145px;
+        padding-top: 5px;
+      }
+    }
+  }
+}

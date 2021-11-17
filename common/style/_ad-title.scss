@@ -1,0 +1,34 @@
+.ad-title {
+  margin-bottom: 10px;
+  &--logo {
+    display: flex;
+    align-items: center;
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      padding: 5px;
+      margin-right: 10px;
+      @extend .box-shadow-1;
+      border-radius: 50%;
+    }
+    h1 {
+      flex: 1;
+    }
+  }
+  &--has-subtitle {
+    margin-bottom: 25px;
+  }
+  &--small {
+    .logo {
+      width: 32px;
+      height: 32px;
+      padding: 3px; 
+    }
+    h5 {
+      font-weight: 500;
+    }
+  }
+}

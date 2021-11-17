@@ -1,0 +1,35 @@
+#bottom-tab {
+  ul {
+    display: flex;
+    li {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      &.active {
+        svg path {
+          fill: $color-main;
+        }
+        span {
+          color: $color-main;
+        }
+      }
+      @include center();
+      svg {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-bottom: 6px;
+        path {
+          fill: rgba(0, 0, 0, 0.4);
+        }
+      }
+      span {
+        font-size: 12px;
+        line-height: 12px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}

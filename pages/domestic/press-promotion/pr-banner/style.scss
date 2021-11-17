@@ -1,0 +1,35 @@
+@import "../../../../common/style/global";
+@import "../../../../common/style/intro";
+@import "../../../../common/style/table";
+@import "../../../../common/style/ad-title";
+@import "../../../../common/style/blue-label";
+@import "../../../../common/style/notice";
+@import "../../../../common/style/self-promotion";
+@import "../../../../common/style/service-process";
+@import "../../../../common/style/portal-logos";
+
+#page-wrapper > .container {
+  .portal-logos {
+    img {
+      &:nth-child(1) {
+        width: 63px;
+        margin-right: 20px;
+      }
+      &:nth-child(2) {
+        width: 45px;
+        margin-right: 20px;
+      }
+      &:nth-child(3) {
+        width: 68px;
+        margin-right: 20px;
+      }
+      &:nth-child(4) {
+        width: 61px;
+        margin-right: 20px;
+      }
+      &:nth-child(5) {
+        width: 40px;
+      }
+    }
+  }
+}

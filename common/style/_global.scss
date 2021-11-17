@@ -1,0 +1,119 @@
+@import "./variables";
+@import "./utils";
+@import "./mixins";
+@import "./reset";
+@import "./header";
+@import "./footer";
+@import "./bottom-tab";
+@import "./menu";
+
+* {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.box-shadow-1 {
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+}
+.box-shadow-2 {
+  box-shadow: 0px 0px 14px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+}
+.box-shadow-3 {
+  box-shadow: 4px 4px 10px -4px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.1em;
+  word-break: keep-all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 22px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 20px;
+}
+h3 {
+  font-size: 18px;
+  line-height: 18px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 16px;
+}
+h4 {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+b {
+  font-weight: 700;
+}
+
+#page {
+  position: relative;
+}
+img {
+  width: 100%;
+  display: block;
+}
+#page-wrapper {
+  padding-top: 50px;
+  padding-left: $size-site-padding;
+  padding-right: $size-site-padding;
+  & > .container {
+    padding-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+.logo.logo--circle-shadow {
+  @include circle-logo();
+}
+.green {
+  color: $color-green;
+}
+.red {
+  color: $color-red;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.wide-p {
+  line-height: 30px;
+  margin-bottom: 24px;
+}

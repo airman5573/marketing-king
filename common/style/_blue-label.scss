@@ -1,0 +1,59 @@
+.blue-label {
+  .title {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+    & > .left {
+      background-color: $color-main;
+      color: white;
+      padding: 10px;
+      letter-spacing: -0.1em;
+    }
+    & > .right {
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid $color-main;
+      letter-spacing: -0.05em;
+    }
+  }
+  .sub-description {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    letter-spacing: -0.05em;
+    line-height: 20px;
+    & > .left {
+      white-space: nowrap;
+      padding-right: 10px;
+      font-size: 14px;
+    }
+    & > .right {
+      font-size: 12px;
+      letter-spacing: -0.12em;
+      word-break: keep-all;
+      font-weight: normal;
+    }
+  }
+
+  &--col-2 {
+    display: flex;
+    .title {
+      font-size: 12px;
+      & > .left {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 9px;
+        padding-right: 9px;
+      }
+      & > .right {
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 8px;
+      }
+    }
+  }
+}
+

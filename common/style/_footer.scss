@@ -1,0 +1,61 @@
+#footer {
+  margin-left: -1 * $size-site-padding;
+  margin-right: -1 * $size-site-padding;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  background-color: $color-gray-8;
+  .links {
+    li {
+      margin-bottom: 15px;
+      a {
+        color: white;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 500;
+      }
+    }
+    margin-bottom: 35px;
+  }
+  .family-site, .company-info li, .all-rights, .logo img {
+    color: white;
+    opacity: 0.4;
+    font-weight: 400;
+  }
+  .family-site {
+    @include form-input-select();
+    position: relative;
+    margin-bottom: 25px;
+    select {
+      /* Focus style */
+      &:focus {
+        background-color: transparent;
+        outline: none;
+      }
+    }
+    img {
+      position: absolute;
+      width: 10px;
+      height: 6px;
+      top: calc(50% - 3px);
+      right: 20px;
+    }
+  }
+  .logo {
+    width: 128px;
+    margin-bottom: 15px;;
+  }
+  .company-info {
+    li {
+      color: white;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.03em;
+    }
+    margin-bottom: 10px;
+  }
+  .all-rights {
+    font-size: 10px;
+  }
+}

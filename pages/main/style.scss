@@ -1,0 +1,29 @@
+@import "../../common/style/global";
+@import "./swiper";
+@import "../../common/style/overlay-intro";
+@import "../../common/style/card";
+@import "../../common/style/marketing-service";
+@import "../../common/style/phone";
+
+#page-wrapper > .container {
+  .best-3 {
+    & > h2 {
+      margin-bottom: 20px;
+      letter-spacing: -0.03em;
+    }
+    .bg-1 {
+      background-color: $color-main;
+    }
+    .bg-2 {
+      background-color: $color-navy;
+    }
+    .bg-3 {
+      background-color: $color-bluegreen;
+    }
+    .swiper-slide {
+      .container {
+        padding-right: 10px;
+      }
+    }
+  }
+}

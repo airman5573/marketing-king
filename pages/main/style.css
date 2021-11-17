@@ -7139,6 +7139,9 @@ button.swiper-pagination-bullet {
   height: 54px;
 }
 
+#page-wrapper > .container {
+  padding-top: 0;
+}
 #page-wrapper > .container .best-3 > h2 {
   margin-bottom: 20px;
   letter-spacing: -0.03em;

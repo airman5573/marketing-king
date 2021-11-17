@@ -125,7 +125,7 @@
     <div class="tag-container">
       <div class="img-container tag-container box-shadow-1 mb-30">
         <img src="/assets/times-square-5.png" alt="">
-        <div class="tag" style="right: 9px; bottom: -15px;">미국, 캐나다</div>
+        <div class="tag" style="right: 9px; bottom: -15px;">미국, 유럽</div>
       </div>
     </div>
   </div>

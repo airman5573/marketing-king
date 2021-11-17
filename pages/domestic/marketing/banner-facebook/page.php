@@ -12,11 +12,11 @@
       마케팅의 왕이 광고에 필요한 모든 것을 대행해드립니다.
     </p>
   </div>
-  <div class="table-container mb-45">
+  <div class="table-container col-4 mb-45">
     <div class="navigation">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
-    <table class="col-4">
+    <table>
       <thead>
         <tr>
           <th class="sticky-col">서비스명</th>
@@ -272,8 +272,7 @@
         </div>
       </div>
     </div>
-  </div>
-  <?php
+  </div> <?php
   $process = [
     [
       'todo' => '서비스 신청,<br/>결제',

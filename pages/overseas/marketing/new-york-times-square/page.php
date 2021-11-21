@@ -115,7 +115,7 @@
     <h1 class="title">미국 언론홍보 진행 사례</h1>
     <h4 class="sub-title">인천공항(Incheon Int'l Airport) - 2017년 4월</h4>
     <div class="tag-container">
-      <div class="img-container tag-container box-shadow-1 mb-30">
+      <div class="img-container box-shadow-1 mb-30">
         <img src="/assets/times-square-4.png" alt="">
         <div class="tag" style="right: 9px; bottom: -15px;">미국, 캐나다</div>
       </div>
@@ -123,7 +123,7 @@
 
     <h4 class="sub-title">기아자동차(KIA Motors) - 2017년 2월</h4>
     <div class="tag-container">
-      <div class="img-container tag-container box-shadow-1 mb-30">
+      <div class="img-container box-shadow-1 mb-30">
         <img src="/assets/times-square-5.png" alt="">
         <div class="tag" style="right: 9px; bottom: -15px;">미국, 유럽</div>
       </div>

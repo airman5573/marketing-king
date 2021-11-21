@@ -97,13 +97,13 @@
 
     // 아래쪽
     tbody tr:last-child td:nth-child(2) {
-      background-color: $color-blue-1;
-    }
-    tbody tr:last-child td:nth-child(3) {
       background-color: $color-blue-2;
     }
-    tbody tr:last-child td:nth-child(4) {
+    tbody tr:last-child td:nth-child(3) {
       background-color: $color-blue-3;
+    }
+    tbody tr:last-child td:nth-child(4) {
+      background-color: $color-blue-4;
     }
   }
 
@@ -128,6 +128,25 @@
     }
     .navigation {
       display: none;
+    }
+  }
+
+  &.simple {
+    table {
+      thead th {
+        background-color: $color-blue-3 !important;
+      }
+      .sticky-col {
+        background-color: white;
+      }
+      thead th,
+      tbody tr:last-child td:first-child {
+        color: black;
+      }
+      thead th:first-child,
+      tbody tr:last-child td:first-child {
+        background-color: white;
+      }
     }
   }
 }

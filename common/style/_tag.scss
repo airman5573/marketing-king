@@ -5,6 +5,7 @@
 .tag {
   position: absolute;
   font-size: 12px;
+  line-height: 12px;
   background-color: $color-main;
   color: $color-white;
   padding: 12px;
@@ -14,5 +15,13 @@
 
 .tag-2 {
   @extend .tag;
+  padding: 10px;
+}
+
+.tag-3 {
+  @extend .tag;
   padding: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 20px;
 }

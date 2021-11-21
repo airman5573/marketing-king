@@ -1,5 +1,5 @@
 // Spacing
-@for $i from 0 through 100 {
+@for $i from 0 through 250 {
   .my-#{$i} {
     margin-top: #{$i}px !important;
     margin-bottom: #{$i}px !important;

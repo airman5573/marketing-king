@@ -13474,6 +13474,10 @@
   color: #D9E2FF !important;
 }
 
+.fc-yellow {
+  color: #FAFF56 !important;
+}
+
 .fc-gray-1 {
   color: #E9E9E9 !important;
 }
@@ -14841,6 +14845,7 @@ button.swiper-pagination-bullet {
   flex-direction: column;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
+  text-align: center;
 }
 .card-type-3 .right h6 {
   margin: 0;

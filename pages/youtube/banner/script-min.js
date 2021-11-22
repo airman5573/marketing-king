@@ -1,0 +1,1 @@
+tableCarousel(".table-container-1","calc(-100% + 80px)");

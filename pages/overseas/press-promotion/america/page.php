@@ -109,8 +109,8 @@
         <tbody>
           <tr>
             <td class="sticky-col">미국</td>
-            <td style="width: 280px;">The New York Times, YAHOO FINANCE, Google, Bloomberg</td>
-            <td>약 10,000개 8상</td>
+            <td>The New York Times, YAHOO FINANCE, Google, Bloomberg</td>
+            <td>약 10,000개 이상</td>
             <td>1,800,000원</td>
           </tr>
           <tr>

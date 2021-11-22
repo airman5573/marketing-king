@@ -1,0 +1,35 @@
+@import "../../../common/style/global";
+@import "../../../common/style/intro";
+@import "../../../common/style/table";
+@import "../../../common/style/ad-title";
+@import "../../../common/style/blue-label";
+@import "../../../common/style/notice";
+@import "../../../common/style/self-promotion";
+@import "../../../common/style/service-process";
+@import "../../../common/style/portal-logos";
+@import "../../../common/style/card";
+
+#page-wrapper > .container {
+  .img-container {
+    .labels {
+      span {
+        font-size: 12px;
+      }
+      span:nth-child(1) {
+        margin-right: 160px;
+      }
+    }
+  }
+  .card-container {
+    .card {
+      &:nth-child(1) {
+        margin-bottom: 15px;
+      }
+      &:nth-child(2) {
+        .right {
+          background-color: #555555;
+        }
+      }
+    }
+  }
+}

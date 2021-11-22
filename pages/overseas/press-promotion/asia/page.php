@@ -102,74 +102,88 @@
           <tr>
             <th class="sticky-col">지역</th>
             <th>대표 언론사 및 통신사</th>
-            <th>대표 언론사 및 통신사</th>
+            <th>배포 미디어</th>
+            <th>서비스 비용</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="sticky-col">중국</td>
             <td>SINA (新浪新闻), SOHU (搜狐), Tencent(腾讯网), CHINA DAILY</td>
-            <td>SINA (新浪新闻), SOHU (搜狐), Tencent(腾讯网), CHINA DAILY</td>
+            <td>약 10,000개 이상</td>
+            <td>1,400,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">일본</td>
             <td>KYODO NEWS, JAPAN TODAY, ADVFN</td>
-            <td>KYODO NEWS, JAPAN TODAY, ADVFN</td>
+            <td>약 500개 이상</td>
+            <td>1,400,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">싱가폴</td>
             <td>YAHOO FINANCE, APBN</td>
-            <td>YAHOO FINANCE, APBN</td>
+            <td>약 500개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">대만</td>
             <td>Reuters Taipei Bureau 路透社（台北站）, Taipei Times 英文台北時報</td>
-            <td>Reuters Taipei Bureau 路透社（台北站）, Taipei Times 英文台北時報</td>
+            <td>약 1,000개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">홍콩</td>
             <td>Bloomberg News – Hong Kong Bureau, Sing Pao Daily成報</td>
-            <td>Bloomberg News – Hong Kong Bureau, Sing Pao Daily成報</td>
+            <td>약 900개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">인도네시아</td>
             <td>RMOL, Budiputra, SWA</td>
-            <td>RMOL, Budiputra, SWA</td>
+            <td>약 750개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">말레이시아</td>
             <td>Malaymail, BORNEO POST, Bahasa Malaysia</td>
-            <td>Malaymail, BORNEO POST, Bahasa Malaysia</td>
+            <td>약 400개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">필리핀</td>
             <td>Manila Standard Today, Philippine Headline News</td>
-            <td>Manila Standard Today, Philippine Headline News</td>
+            <td>약 280개 이상</td>
+            <td>800,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">태국</td>
             <td>Bangkok Post, Pantipmarket, Krungthep Turakij</td>
-            <td>Bangkok Post, Pantipmarket, Krungthep Turakij</td>
+            <td>약 700개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">베트남</td>
             <td>Nhat bao Saigon Times (Saigon Times Daily), Dantri.com</td>
-            <td>Nhat bao Saigon Times (Saigon Times Daily), Dantri.com</td>
+            <td>약 150개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">인도</td>
             <td>Delhi Mid Day, The Hindustan Times, Mumbai Mirror</td>
-            <td>Delhi Mid Day, The Hindustan Times, Mumbai Mirror</td>
+            <td>약 150개 이상</td>
+            <td>900,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">파키스탄</td>
             <td>Daily Abaseen, Naibaat Karachi, Sindh Television News</td>
-            <td>Daily Abaseen, Naibaat Karachi, Sindh Television News</td>
+            <td>약 150개 이상</td>
+            <td>800,000원</td>
           </tr>
           <tr>
-            <td class="sticky-col">호주,<br>뉴질랜드</td>
+            <td class="sticky-col">호주,<br/>뉴질랜드</td>
             <td>Daily Telegraph, AAP Sydney, New Zealand Herald</td>
-            <td>Daily Telegraph, AAP Sydney, New Zealand Herald</td>
+            <td>약 1,800개 이상</td>
+            <td>1,800,000원</td>
           </tr>
         </tbody>
       </table>

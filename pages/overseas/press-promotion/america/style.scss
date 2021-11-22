@@ -25,6 +25,9 @@
       font-size: 12px;
     }
   }
+  .table-container {
+    display: none !important;
+  }
   .ranges {
     .content {
       @include box-shadow(8px);

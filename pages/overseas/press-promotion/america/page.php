@@ -102,49 +102,58 @@
           <tr>
             <th class="sticky-col">지역</th>
             <th>대표 언론사 및 통신사</th>
-            <th>대표 언론사 및 통신사</th>
+            <th>배포 미디어</th>
+            <th>서비스 비용</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="sticky-col">미국</td>
-            <td>The New York Times, YAHOO FINANCE, Google, Bloomberg</td>
-            <td>The New York Times, YAHOO FINANCE, Google, Bloomberg</td>
+            <td style="width: 280px;">The New York Times, YAHOO FINANCE, Google, Bloomberg</td>
+            <td>약 10,000개 8상</td>
+            <td>1,800,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">캐나다</td>
             <td>YAHOO FINANCE, CNN Money, Dow Jones</td>
-            <td>YAHOO FINANCE, CNN Money, Dow Jones</td>
+            <td>약 4,000개 이상</td>
+            <td>1,500,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">브라질</td>
             <td>Zero Hora, O Estado de São Paulo, Folha de São Paulo</td>
-            <td>Zero Hora, O Estado de São Paulo, Folha de São Paulo</td>
+            <td>약 5,900개 이상</td>
+            <td>1,500,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">아르헨티나</td>
             <td>La Nación, Clarín, La Prensa</td>
-            <td>La Nación, Clarín, La Prensa</td>
+            <td>약 670개 이상</td>
+            <td>1,500,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">칠레</td>
             <td>La Nación, El Mercurio</td>
-            <td>La Nación, El Mercurio</td>
+            <td>약 260개 이상</td>
+            <td>1,200,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">콜롬비아</td>
-            <td>El mundo, Fucsia, CM&amp;, Salud y Belleza</td>
-            <td>El mundo, Fucsia, CM&amp;, Salud y Belleza</td>
+            <td>El mundo, Fucsia, CM&, Salud y Belleza</td>
+            <td>약 220개 이상</td>
+            <td>1,200,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">베네수엘라</td>
             <td>La Verdad, Últimas Noticias, Panorama</td>
-            <td>La Verdad, Últimas Noticias, Panorama</td>
+            <td>약 100개 이상</td>
+            <td>1,200,000원</td>
           </tr>
           <tr>
             <td class="sticky-col">멕시코</td>
             <td>Milenio Diario, El Sol de México, Reforma</td>
-            <td>Milenio Diario, El Sol de México, Reforma</td>
+            <td>약 1,500개 이상</td>
+            <td>1,500,000원</td>
           </tr>
         </tbody>
       </table>

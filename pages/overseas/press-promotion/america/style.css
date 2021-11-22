@@ -14533,8 +14533,8 @@ img {
 }
 #page-wrapper > .container .table-container table {
   width: 618px;
-  font-size: 10px;
   letter-spacing: -0.05em;
+  table-layout: auto;
 }
 #page-wrapper > .container .table-container table .sticky-col, #page-wrapper > .container .table-container table thead th,
 #page-wrapper > .container .table-container table tbody tr:last-child {

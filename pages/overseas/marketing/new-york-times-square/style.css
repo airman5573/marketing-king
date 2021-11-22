@@ -14228,6 +14228,9 @@ img {
 .table-container.col-2 .navigation {
   display: none;
 }
+.table-container.simple {
+  display: none !important;
+}
 .table-container.simple table thead th {
   background-color: #AFBFF3 !important;
 }
@@ -14241,6 +14244,12 @@ img {
 .table-container.simple table thead th:first-child,
 .table-container.simple table tbody tr:last-child td:first-child {
   background-color: white;
+}
+.table-container.simple table tr {
+  display: none;
+}
+.table-container.simple table tr td:nth-child(2) {
+  font-size: 10px;
 }
 
 .ad-title {

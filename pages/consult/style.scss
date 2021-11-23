@@ -1,0 +1,123 @@
+@import "../../common/style/global";
+@import "../../common/style/intro";
+@import "../../common/style/table";
+@import "../../common/style/ad-title";
+@import "../../common/style/blue-label";
+@import "../../common/style/notice";
+@import "../../common/style/service-process";
+
+#page-wrapper > .container {
+  .input-highlight {
+    border: none;
+    outline: none;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    transition: all .3s;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    &.active {
+      border-bottom-color: $color-main;
+      box-shadow: 0 1px 0 0 $color-main;
+    }
+  }
+  input[type=text] {
+    background-color: transparent;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15 0px;
+    padding: 0;
+    @extend .input-highlight;
+  }
+  input[type=text]:focus {
+    @extend .active;
+  }
+  input::placeholder {
+    color: #7F8080;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.05em;
+  }
+  label.required {
+    &:after {
+      content: ' *';
+      color: $color-red;
+    }
+  }
+  .form-row {
+    margin-bottom: 30px;
+    &:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      .form-field {
+        display: flex;
+        .field-container {
+          position: relative;
+          input {
+            display: none;
+          }
+          label {
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+          }
+          label:before,
+          label:after {
+            content: '';
+          }
+          label:before {
+            border: 1px solid #222021;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: top;
+          }
+          label:after {
+            background: $color-main;
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            transition: 300ms;
+            opacity: 0;
+          }
+          input:checked+label:after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    &:nth-child(7) .form-field {
+      position: relative;
+      display: flex;
+      align-items: center;
+      select {
+        width: 20px;
+        border: none;
+      }
+      input[type=text],
+      input[type=text]:focus {
+        border: none;
+        box-shadow: none;
+      }
+      span {
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      select {
+        margin-right: 12px;
+      }
+    }
+    & > label {
+
+    }
+  }
+}

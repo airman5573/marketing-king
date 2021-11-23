@@ -105,8 +105,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/best3-2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -255,14 +255,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/icno-asia.png" : {
+      "ft" : 32768,
+      "iS" : 3201,
+      "oA" : 0,
+      "oAP" : "\/assets\/icno-asia.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/icon-america.png" : {
       "ft" : 32768,
       "iS" : 2008,
       "oA" : 0,
       "oAP" : "\/assets\/icon-america.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -343,8 +356,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/icon-document-2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -356,8 +369,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/icon-europe.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -382,8 +395,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/icon-google.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -454,8 +467,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/icon-playstore.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -467,8 +480,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/icon-seo.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1807,6 +1820,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/common\/js\/phone.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/common\/js\/phone-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/common\/js\/table-carousel.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2209,6 +2233,17 @@
       "oA" : 0,
       "oAP" : "\/pages\/consult\/page.php",
       "oF" : 0
+    },
+    "\/pages\/consult\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/pages\/consult\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/pages\/consult\/script.js" : {
       "bF" : 0,
@@ -2868,6 +2903,17 @@
       "oA" : 0,
       "oAP" : "\/pages\/main\/page.php",
       "oF" : 0
+    },
+    "\/pages\/main\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/pages\/main\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/pages\/main\/script.js" : {
       "bF" : 0,
@@ -4633,7 +4679,7 @@
         "active" : 0
       },
       "no-empty" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allowEmptyCatch': false}"
       },
       "no-empty-character-class" : {
@@ -4980,7 +5026,7 @@
         "active" : 0
       },
       "no-unused-vars" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
       },
       "no-use-before-define" : {

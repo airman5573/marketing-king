@@ -24,7 +24,13 @@
     <li class="fax">Fax. 02 - 6442 - 6234</li>
   </ul>
   <div class="all-rights">ⓒ Since 2011 TERAPLANET Corp. All Rights Reserved.</div>
-</div> <?php
+</div>
+
+<a href="tel:02-466-6402" class="phone">
+  <img src="/assets/icon-phone.svg" alt="">
+</a>
+
+<?php
 include_with_variable('/common/component/bottom-tab.php', array('current_path' => $current_path)); ?>
 </div> <!-- page-wrapper --> <?php
 include_with_variable('/common/component/menu.php', array('current_path' => $current_path)); ?>
@@ -33,6 +39,7 @@ include_with_variable('/common/component/menu.php', array('current_path' => $cur
 </body>
 <script src="/common/js/menu.js"></script>
 <script src="/common/js/table-carousel.js"></script>
+<script src="/common/js/phone.js"></script>
 <?php
   // 파일 존재 여부 검사할때는 앞의 /를 빼고 검사한다
   if (file_exists(substr($js_path, 1))) { ?>

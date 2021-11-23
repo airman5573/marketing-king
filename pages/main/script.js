@@ -18,6 +18,8 @@
   loop: true,
   autoplay: true,
   width: 205,
+  spaceBetween: 10,
+  loopAdditionalSlides: 2,
 
   // And if we need scrollbar
   scrollbar: {

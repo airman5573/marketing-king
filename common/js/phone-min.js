@@ -1,0 +1,1 @@
+jQuery(document).on("ready",(function(){let o=$(".phone");const t=$(window);function n(){t.scrollTop()+window.innerHeight>=document.body.scrollHeight?o.hasClass("at-bottom")||o.addClass("at-bottom"):o.hasClass("at-bottom")&&o.removeClass("at-bottom")}$(document.body).on("touchmove",n),t.on("scroll",n)}));

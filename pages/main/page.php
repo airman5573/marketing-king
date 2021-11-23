@@ -186,7 +186,3 @@
     </div> <?php
   } ?>
 </div>
-
-<div class="phone">
-  <img src="/assets/icon-phone.svg" alt="">
-</div>

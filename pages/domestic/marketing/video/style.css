@@ -13969,6 +13969,21 @@ p {
   padding-top: 5px;
 }
 
+.phone {
+  position: fixed;
+  z-index: 2;
+  bottom: 50px;
+  right: 25px;
+  width: 54px;
+  height: 54px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+.phone.at-bottom {
+  bottom: 90px;
+}
+
 * {
   font-family: Noto Sans KR;
   font-style: normal;

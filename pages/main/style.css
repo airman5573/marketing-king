@@ -13969,6 +13969,21 @@ p {
   padding-top: 5px;
 }
 
+.phone {
+  position: fixed;
+  z-index: 2;
+  bottom: 50px;
+  right: 25px;
+  width: 54px;
+  height: 54px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+.phone.at-bottom {
+  bottom: 90px;
+}
+
 * {
   font-family: Noto Sans KR;
   font-style: normal;
@@ -14774,7 +14789,6 @@ button.swiper-pagination-bullet {
 .card-type-1 {
   display: flex;
   flex-direction: column;
-  width: 195px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -14793,6 +14807,7 @@ button.swiper-pagination-bullet {
   padding-top: 20px;
   padding-bottom: 10px;
   color: #FFFFFF;
+  font-weight: 500;
 }
 .card-type-1 .bottom p {
   font-size: 11px;
@@ -14902,7 +14917,7 @@ button.swiper-pagination-bullet {
   letter-spacing: -0.03em;
 }
 .service .service-contents {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   padding-top: 20px;
@@ -14928,7 +14943,7 @@ button.swiper-pagination-bullet {
 }
 .service .service-contents .service-item > .right .content {
   flex: 1;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .service .service-contents .service-item > .right .content h3 {
   margin: 0;
@@ -14937,7 +14952,7 @@ button.swiper-pagination-bullet {
   letter-spacing: -0.015em;
 }
 .service .service-contents .service-item > .right .content p {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 16px;
   letter-spacing: -0.05em;
@@ -14947,8 +14962,8 @@ button.swiper-pagination-bullet {
   padding-right: 5px;
 }
 .service .service-contents .service-item > .right .icon img {
-  width: 6px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
 }
 .service .service-contents .divider {
   height: 1px;
@@ -14956,12 +14971,18 @@ button.swiper-pagination-bullet {
 }
 
 .phone {
-  position: absolute;
+  position: fixed;
   z-index: 2;
-  bottom: 90px;
+  bottom: 50px;
   right: 25px;
   width: 54px;
   height: 54px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+.phone.at-bottom {
+  bottom: 90px;
 }
 
 #page-wrapper > .container {
@@ -14979,7 +15000,4 @@ button.swiper-pagination-bullet {
 }
 #page-wrapper > .container .best-3 .bg-3 {
   background-color: #0C93B0;
-}
-#page-wrapper > .container .best-3 .swiper-slide .container {
-  padding-right: 10px;
 }

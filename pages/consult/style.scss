@@ -51,6 +51,14 @@
   }
   .form-row {
     margin-bottom: 30px;
+    label {
+      font-size: 14px;
+      line-height: 14px;
+    }
+    & > label {
+      font-size: 16px;
+      line-height: 16px;
+    }
     &:nth-child(1) {
       display: flex;
       flex-direction: column;
@@ -58,38 +66,11 @@
         display: flex;
         .field-container {
           position: relative;
+          display: flex;
+          align-items: center;
           input {
-            display: none;
-          }
-          label {
-            line-height: 22px;
-            display: flex;
-            align-items: center;
-          }
-          label:before,
-          label:after {
-            content: '';
-          }
-          label:before {
-            border: 1px solid #222021;
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-            display: inline-block;
-            vertical-align: top;
-          }
-          label:after {
-            background: $color-main;
-            width: 14px;
-            height: 14px;
             position: absolute;
-            top: 4px;
-            left: 4px;
-            transition: 300ms;
             opacity: 0;
-          }
-          input:checked+label:after {
-            opacity: 1;
           }
         }
       }
@@ -98,9 +79,9 @@
       position: relative;
       display: flex;
       align-items: center;
-      select {
-        width: 20px;
-        border: none;
+      .select-hidden {
+        display: none;
+        visibility: hidden;
       }
       input[type=text],
       input[type=text]:focus {
@@ -112,12 +93,80 @@
         padding-left: 10px;
         padding-right: 10px;
       }
-      select {
-        margin-right: 12px;
+      .arrow-down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16px;
+        height: 12px;
+        position: absolute;
+        right: 20px;
+        z-index: 100;
+      }
+      $select-color: #fff;
+      $select-background: #c0392b;
+      .emails {
+        &.show {
+          display: block;
+        }
+        width: 150px;
+        text-align: center;
+        display: none; 
+        position: absolute;
+        top: 100%;
+        right: 10px;
+        z-index: 999;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: white;
+        li {
+          margin: 0;
+          padding: 6px 0;
+          &[rel="hide"] {
+            display: none;
+          }
+        }
       }
     }
-    & > label {
-
+    input[type=radio]:checked ~ .checkbox,
+    input[type=checkbox]:checked ~ .checkbox {
+      &::before {
+        background-color: $color-main;
+      }
     }
+    .checkbox {
+      position: relative;
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      margin-right: 5px;
+      &::before {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        left: 1px;
+        top: 1px;
+      }
+    }
+    &:nth-child(9) {
+      display: flex;
+      flex-direction: column;
+    }
+    textarea[name=content] {
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      padding: 15px;
+    }
+  }
+  button[type=submit] {
+    width: 100%;
+    background-color: $color-main;
+    border: none;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }

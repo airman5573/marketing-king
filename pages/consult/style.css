@@ -13662,6 +13662,18 @@
   background-color: #0C1F61 !important;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   word-wrap: break-word;
@@ -14483,6 +14495,14 @@ img {
 #page-wrapper > .container .form-row {
   margin-bottom: 30px;
 }
+#page-wrapper > .container .form-row label {
+  font-size: 14px;
+  line-height: 14px;
+}
+#page-wrapper > .container .form-row > label {
+  font-size: 16px;
+  line-height: 16px;
+}
 #page-wrapper > .container .form-row:nth-child(1) {
   display: flex;
   flex-direction: column;
@@ -14492,48 +14512,21 @@ img {
 }
 #page-wrapper > .container .form-row:nth-child(1) .form-field .field-container {
   position: relative;
-}
-#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container input {
-  display: none;
-}
-#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container label {
-  line-height: 22px;
   display: flex;
   align-items: center;
 }
-#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container label:before,
-#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container label:after {
-  content: "";
-}
-#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container label:before {
-  border: 1px solid #222021;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  display: inline-block;
-  vertical-align: top;
-}
-#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container label:after {
-  background: #375FE0;
-  width: 14px;
-  height: 14px;
+#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container input {
   position: absolute;
-  top: 4px;
-  left: 4px;
-  transition: 300ms;
   opacity: 0;
-}
-#page-wrapper > .container .form-row:nth-child(1) .form-field .field-container input:checked + label:after {
-  opacity: 1;
 }
 #page-wrapper > .container .form-row:nth-child(7) .form-field {
   position: relative;
   display: flex;
   align-items: center;
 }
-#page-wrapper > .container .form-row:nth-child(7) .form-field select {
-  width: 20px;
-  border: none;
+#page-wrapper > .container .form-row:nth-child(7) .form-field .select-hidden {
+  display: none;
+  visibility: hidden;
 }
 #page-wrapper > .container .form-row:nth-child(7) .form-field input[type=text],
 #page-wrapper > .container .form-row:nth-child(7) .form-field input[type=text]:focus {
@@ -14545,6 +14538,73 @@ img {
   padding-left: 10px;
   padding-right: 10px;
 }
-#page-wrapper > .container .form-row:nth-child(7) .form-field select {
-  margin-right: 12px;
+#page-wrapper > .container .form-row:nth-child(7) .form-field .arrow-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  right: 20px;
+  z-index: 100;
+}
+#page-wrapper > .container .form-row:nth-child(7) .form-field .emails {
+  width: 150px;
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: white;
+}
+#page-wrapper > .container .form-row:nth-child(7) .form-field .emails.show {
+  display: block;
+}
+#page-wrapper > .container .form-row:nth-child(7) .form-field .emails li {
+  margin: 0;
+  padding: 6px 0;
+}
+#page-wrapper > .container .form-row:nth-child(7) .form-field .emails li[rel=hide] {
+  display: none;
+}
+#page-wrapper > .container .form-row input[type=radio]:checked ~ .checkbox::before,
+#page-wrapper > .container .form-row input[type=checkbox]:checked ~ .checkbox::before {
+  background-color: #375FE0;
+}
+#page-wrapper > .container .form-row .checkbox {
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-right: 5px;
+}
+#page-wrapper > .container .form-row .checkbox::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  left: 1px;
+  top: 1px;
+}
+#page-wrapper > .container .form-row:nth-child(9) {
+  display: flex;
+  flex-direction: column;
+}
+#page-wrapper > .container .form-row textarea[name=content] {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+#page-wrapper > .container button[type=submit] {
+  width: 100%;
+  background-color: #375FE0;
+  border: none;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

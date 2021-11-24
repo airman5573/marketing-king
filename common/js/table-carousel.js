@@ -26,18 +26,22 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
   let startX = 0;
   let xDiff = 0;
   $table.on('touchstart', function(e){
-    startX = e.originalEvent.changedTouches[0].clientX;
+    console.dir(e);
+    const touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0] || e.touches[0];
+    console.dir(touch);
+    startX = touch.clientX;
     startMarginLeft = parseInt($table.css('margin-left'), 10);
     xDiff = 0;
   });
 
-  $table.on('touchmove', function(e){
+  $table.bind('touchmove', function(e){
     if (!startX) return;
-    xDiff = e.originalEvent.changedTouches[0].clientX - startX;
-    startX = e.originalEvent.changedTouches[0].clientX;
+    const touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0]
+    xDiff = touch.clientX - startX;
+    startX = touch.clientX;
     const currentMarginLeft = parseInt($table.css('margin-left'), 10);
     const dist = currentMarginLeft + xDiff;
-    const _max = sections.reduce((acc, cur) => acc + cur, 0) - sections.at(-1);
+    const _max = sections.reduce((acc, cur) => acc + cur, 0) - sections[sections.length - 1];
     if (dist > 0 || Math.abs(dist) >= _max) return;
     $table.css({'margin-left': parseInt(dist, 10)});
   });
@@ -70,10 +74,10 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
       if (sm === 0) return SECTION_FIRST;
       return SECTION_LAST;
     };
-    $table.on('touchend', function(e){
+    $table.bind('touchend', function(e){
       const currentMarginLeft = parseInt($table.css('margin-left'), 10);
       const currentSection = getCurrentSection(startMarginLeft);
-      const sectionWidth = sections.at(currentSection);
+      const sectionWidth = sections[(currentSection < 0 ? sections.length - 1 : currentSection)];
       const halfOfSection = parseInt(sectionWidth/2, 10);
 
       console.log('currentMarginLeft', currentMarginLeft);
@@ -103,11 +107,11 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
       if (sm === sectionWidth) return SECTION_MIDDLE;
       return SECTION_LAST;
     };
-    $table.on('touchend', function(e){
+    $table.bind('touchend', function(e){
       const currentMarginLeft = parseInt($table.css('margin-left'), 10);
       const currentSection = getCurrentSection(startMarginLeft, sections[0]);
       const dist = Math.abs(startMarginLeft - currentMarginLeft);
-      const sectionWidth = sections.at(currentSection); // -1 이 들어올수도 있으니까~
+      const sectionWidth = sections[(currentSection < 0 ? sections.length - 1 : currentSection)]; // -1 이 들어올수도 있으니까~
       const halfOfSection = parseInt(sectionWidth/2, 10);
 
       console.log('currentMarginLeft', currentMarginLeft);

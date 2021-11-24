@@ -14140,6 +14140,7 @@ img {
   margin-bottom: 10px;
 }
 .table-container .navigation {
+  display: none !important;
   position: absolute;
   z-index: 3;
   top: 40%;

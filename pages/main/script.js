@@ -14,11 +14,10 @@
  //# sourceMappingURL=swiper-bundle.min.js.map
 
 
- const swiper = new Swiper('.swiper', {
-  width: 205,
-  spaceBetween: 10,
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar'
-  }
-});
+// const swiper = new Swiper('.swiper', {
+//   width: 205,
+//   freeMode: true,
+//   slidesPerView: "auto",
+//   spaceBetween: 10,
+//   longSwipes: false
+// });

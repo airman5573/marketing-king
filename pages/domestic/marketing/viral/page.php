@@ -148,7 +148,7 @@
                 <td class="sticky-col">제공<br/>서비스</td>
                 <td colspan="6" class="bc-white">
                   <div class="mb-6">블로거 모집 및 관리 / 참여 블로거 리스트 공유 / 방문 일정 및 스케줄 조율 / 결과보고서 제공</div>
-                  <p class="fs-11 fc-main">
+                  <p class="fc-main" style="font-size: 6.5px">
                     - 작성 원고 사전 확인을 희망 할 경우 1명 당 1만원의 추가 비용이 발생합니다.<br/>
                     - 방문체험형의 경우 서울이 아닐 시 교통비가 추가로 발생할 수 있습니다.
                   </p>

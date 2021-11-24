@@ -14954,8 +14954,8 @@ button.swiper-pagination-bullet {
 }
 .service .service-contents .service-item > .right .content p {
   font-size: 13px;
-  font-weight: 300;
-  line-height: 16px;
+  font-weight: 400;
+  line-height: 18px;
   letter-spacing: -0.05em;
   color: #848484;
 }
@@ -15001,4 +15001,17 @@ button.swiper-pagination-bullet {
 }
 #page-wrapper > .container .best-3 .bg-3 {
   background-color: #0C93B0;
+}
+#page-wrapper > .container .best-3 .swiper-wrapper {
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+#page-wrapper > .container .best-3 .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+#page-wrapper > .container .best-3 .swiper-slide {
+  width: 205px;
+}
+#page-wrapper > .container .best-3 .swiper-slide .container {
+  padding-right: 10px;
 }

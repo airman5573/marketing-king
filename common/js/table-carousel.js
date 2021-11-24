@@ -26,9 +26,7 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
   let startX = 0;
   let xDiff = 0;
   $table.on('touchstart', function(e){
-    console.dir(e);
     const touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0] || e.touches[0];
-    console.dir(touch);
     startX = touch.clientX;
     startMarginLeft = parseInt($table.css('margin-left'), 10);
     xDiff = 0;
@@ -36,7 +34,7 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
 
   $table.bind('touchmove', function(e){
     if (!startX) return;
-    const touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0]
+    const touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0] || e.touches[0];
     xDiff = touch.clientX - startX;
     startX = touch.clientX;
     const currentMarginLeft = parseInt($table.css('margin-left'), 10);
@@ -80,19 +78,14 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
       const sectionWidth = sections[(currentSection < 0 ? sections.length - 1 : currentSection)];
       const halfOfSection = parseInt(sectionWidth/2, 10);
 
-      console.log('currentMarginLeft', currentMarginLeft);
-      console.log('startMarginLeft', startMarginLeft);
-      console.log('currentSection', currentSection);
-      console.log("halfOfsection", halfOfSection);
-
       if (currentSection === SECTION_FIRST) {
-        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 30) {
+        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 40) {
           move(SECTION_FIRST, 0);
         } else {
           move(SECTION_LAST, -1*sectionWidth);
         }
       } else {
-        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 30) {
+        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 40) {
           move(SECTION_LAST, startMarginLeft);
         } else {
           move(SECTION_FIRST, 0)
@@ -114,19 +107,15 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
       const sectionWidth = sections[(currentSection < 0 ? sections.length - 1 : currentSection)]; // -1 이 들어올수도 있으니까~
       const halfOfSection = parseInt(sectionWidth/2, 10);
 
-      console.log('currentMarginLeft', currentMarginLeft);
-      console.log('startMarginLeft', startMarginLeft);
-      console.log('currentSection', currentSection);
-
       if (currentSection === SECTION_FIRST) {
-        if (dist < halfOfSection - 20) {
+        if (dist < halfOfSection - 30) {
           move(SECTION_FIRST, 0);
         } else {
           move(SECTION_MIDDLE, -1*sectionWidth);
         }
       }
       else if (currentSection === SECTION_MIDDLE) {
-        if (dist < halfOfSection - 20) {
+        if (dist < halfOfSection - 30) {
           move(SECTION_MIDDLE, -1*sectionWidth);
         } else if (startMarginLeft < currentMarginLeft) {
           move(SECTION_FIRST, 0);
@@ -135,7 +124,7 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
         }
       }
       else {
-        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 20) {
+        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 30) {
           move(SECTION_LAST, startMarginLeft);
         } else {
           move(SECTION_MIDDLE, -1*sectionWidth);

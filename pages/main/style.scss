@@ -21,9 +21,17 @@
     .bg-3 {
       background-color: $color-bluegreen;
     }
+    .swiper-wrapper {
+      overflow: scroll;
+      -ms-overflow-style: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
     .swiper-slide {
+      width: 205px;
       .container {
-        //padding-right: 10px;
+        padding-right: 10px;
       }
     }
   }

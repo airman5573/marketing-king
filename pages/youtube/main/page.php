@@ -65,7 +65,10 @@
       </div>
       <div class="row">
         <div class="table-container col-4 table-container-1">
-          <div class="navigation">
+          <div class="navigation navigation--left">
+            <img src="/assets/arrow-right.svg" alt="">
+          </div>
+          <div class="navigation navigation--right">
             <img src="/assets/arrow-right.svg" alt="">
           </div>
           <table>
@@ -146,7 +149,10 @@
       </div>
       <div class="row">
         <div class="table-container col-4 table-container-2">
-          <div class="navigation">
+          <div class="navigation navigation--left">
+            <img src="/assets/arrow-right.svg" alt="">
+          </div>
+          <div class="navigation navigation--right">
             <img src="/assets/arrow-right.svg" alt="">
           </div>
           <table>

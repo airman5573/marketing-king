@@ -11,7 +11,10 @@
     </p>
   </div>
   <div class="table-container col-4 mb-45">
-    <div class="navigation">
+    <div class="navigation navigation--left">
+      <img src="/assets/arrow-right.svg" alt="">
+    </div>
+    <div class="navigation navigation--right">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
     <table>
@@ -81,10 +84,7 @@
                   <img src="/assets/banner_facebook_step-1.png" alt="">
                 </div>
                 <h5>신규 고객만을 확보하고자 하는 경우</h5>
-                <p>
-                  배너광고 : 키워드 타게팅<br/>
-                  페이스북광고 : 성별 / 연령 / 관심사 타게팅
-                </p>
+                <p>키워드 타게팅을 진행</p>
               </div>
               <div class="bottom bc-bluegreen">
                 <p>
@@ -99,11 +99,8 @@
                 <div class="img-container">
                   <img src="/assets/banner_facebook-step-2.png" alt="">
                 </div>
-                <h5>신규 고객만을 확보하고, 해당 고객에게<br/>다시 한 번 마케팅을 하고자 하는 경우</h5>
-                <p>
-                  배너광고 : 리타게팅<br/>
-                  페이스북광고 : 성별 / 연령 / 관심사 타게팅
-                </p>
+                <h5>이미 한 번 홈페이지에 방문한 사용자들에게만<br/>광고를 진행하고자 하는 경우</h5>
+                <p>리타게팅을 진행</p>
               </div>
               <div class="bottom bc-main">
                 <p>
@@ -118,14 +115,14 @@
                 <div class="img-container">
                   <img src="/assets/banner_facebook-step-3.png" alt="">
                 </div>
-                <h5>신규 고객 확보와 리타게팅을 유동적으로<br/>진행하고자 하는 경우</h5>
-                <p>
-                  배너광고 : 리타게팅<br/>페이스북광고 : 성별 / 연령 / 관심사 타게팅 or 리타게팅
-                </p>
+                <h5>신규 고객 확보와 리타게팅을 결합해 진행하고자 하는 경우</h5>
+                <p>키워드 타게팅 + 리타게팅을 진행</p>
               </div>
               <div class="bottom bc-blue-9">
                 <p>
-                  광고기간동안 배너광고 키워드 타게팅과 리타게팅 및<br/>페이스북 성별, 연령관심사 타게팅과 리타게팅을 적절히 믹스해<br/>원하는 결과를 이끌어 낼 수 있도록<br/>세부 플랜을 수립 후 마케팅을 진행
+                  키워드 타게팅을 통해 신규 방문자를 확보한 후,<br/>
+                  리타게팅을 이어서 진행함으로서<br/>
+                  신규 방문자와 방문자 재유입을 동시에 이끌어냄
                 </p>
               </div>
             </div>

@@ -6,19 +6,18 @@
   .navigation {
     position: absolute;
     z-index: 3;
-    right: 15px;
     top: 40%;
     width: 24px;
-    animation: blink-effect 1.2s ease infinite;
-    &.left {
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    &--left {
       transform: rotateY(180deg);
       left: 80px;
+      opacity: 0;
     }
-  }
-  @keyframes blink-effect {
-    0% { opacity: 0.4; }
-    50% { opacity: 0.6; }
-    100% { opacity: 0.4; }
+    &--right {
+      right: 15px;
+    }
   }
   table {
     position: relative;
@@ -26,13 +25,9 @@
     font-size: 12px;
     // line-height: 12px;
     letter-spacing: -0.05em;
-    border-collapse: collapse;
+    border-collapse: separate;
     border-spacing: 0;
     width: 619px;
-    transition: all 1s ease;
-    &, th, td {
-      border: 1px solid black;
-    }
     th, td {
       text-align:center;
       vertical-align:middle;
@@ -42,7 +37,33 @@
     }
     .sticky-col {
       position: sticky;
-      left: -2px;
+      left: 0px;
+      width: 71px;
+      background-color: $color-gray-1;
+    }
+    
+    th, td {
+      text-align:center;
+      vertical-align:middle;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      white-space: nowrap;
+    }
+    th {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+    }
+    td {
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+    .sticky-col {
+      border-left: 1px solid black;
+    }
+    .sticky-col {
+      position: sticky;
+      left: 0px;
       width: 71px;
       background-color: $color-gray-1;
     }

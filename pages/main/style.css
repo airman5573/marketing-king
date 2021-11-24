@@ -13972,7 +13972,7 @@ p {
 .phone {
   position: fixed;
   z-index: 2;
-  bottom: 50px;
+  bottom: 35px;
   right: 25px;
   width: 54px;
   height: 54px;
@@ -13981,7 +13981,7 @@ p {
   transition-timing-function: ease-in;
 }
 .phone.at-bottom {
-  bottom: 90px;
+  opacity: 0;
 }
 
 * {
@@ -14894,11 +14894,12 @@ button.swiper-pagination-bullet {
 }
 .card-type-4 .bottom .box {
   display: inline-block;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 7px;
+  padding-bottom: 9px;
   padding-left: 14px;
   padding-right: 14px;
   font-size: 16px;
+  line-height: 16px;
   font-weight: 500;
   letter-spacing: -0.1em;
   margin-bottom: 10px;
@@ -14973,7 +14974,7 @@ button.swiper-pagination-bullet {
 .phone {
   position: fixed;
   z-index: 2;
-  bottom: 50px;
+  bottom: 35px;
   right: 25px;
   width: 54px;
   height: 54px;
@@ -14982,7 +14983,7 @@ button.swiper-pagination-bullet {
   transition-timing-function: ease-in;
 }
 .phone.at-bottom {
-  bottom: 90px;
+  opacity: 0;
 }
 
 #page-wrapper > .container {

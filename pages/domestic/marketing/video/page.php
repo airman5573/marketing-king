@@ -13,7 +13,10 @@
     </p>
   </div>
   <div class="table-container col-4 mb-40">
-    <div class="navigation">
+    <div class="navigation navigation--left">
+      <img src="/assets/arrow-right.svg" alt="">
+    </div>
+    <div class="navigation navigation--right">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
     <table>
@@ -105,9 +108,28 @@
           분들께 적합한 영상광고 솔루션이 바로<br>
           이미지모션 + SNS광고입니다.
         </p>
-        <div class="img-container box-shadow-1 py-5">
-          <img src="/assets/marketing-video-1.png" alt="">
-        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ad-component ad-component--image-motion mb-40">
+    <div class="ad-title ad-title--logo">
+      <div class="logo">
+        <img src="/assets/icon-video-3.png" alt="">
+      </div>
+      <h1>1. 이미지모션 기획·제작</h1>
+    </div>
+    <div class="content">
+      <p class="wide-p">
+        이미지모션이란 짧은 영상 형식의 웹 포스터로,<br/>
+        마케팅의 왕은 클라이언트가 제공한 사진 이미지를 활용해<br/>
+        약 30초 분량의 이미지모션을 기획 및 제작해드립니다.<br/>
+        영상광고를 집행하고자 하는 니즈가 있지만<br/>
+        영상제작에 어려움을 겪거나 높은 비용 때문에 망설이는<br/>
+        분들께 적합한 영상광고 솔루션이 바로<br/>
+        이미지모션 + SNS광고입니다.
+      </p>
+      <div class="img-container box-shadow-1 py-5">
+        <img src="/assets/marketing-video-1.png" alt="">
       </div>
     </div>
   </div>

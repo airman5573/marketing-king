@@ -134,7 +134,10 @@
       마케팅을 마케팅의 왕에서 대행해드립니다.
     </p>
     <div class="table-container col-3 table-container-1 mb-50">
-      <div class="navigation">
+      <div class="navigation navigation--left">
+        <img src="/assets/arrow-right.svg" alt="">
+      </div>
+      <div class="navigation navigation--right">
         <img src="/assets/arrow-right.svg" alt="">
       </div>
       <table>

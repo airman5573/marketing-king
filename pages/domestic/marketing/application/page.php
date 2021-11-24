@@ -9,7 +9,10 @@
     </p>
   </div>
   <div class="table-container col-4 mb-40">
-    <div class="navigation">
+    <div class="navigation navigation--left">
+      <img src="/assets/arrow-right.svg" alt="">
+    </div>
+    <div class="navigation navigation--right">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
     <table>

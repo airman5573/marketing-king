@@ -35,7 +35,10 @@
   <div class="ad-component">
     <h1 class="ad-title">중동 & 아프리카 홍보 서비스 구성표</h1>
     <div class="table-container table-container-1 col-3 mb-15">
-      <div class="navigation">
+      <div class="navigation navigation--left">
+        <img src="/assets/arrow-right.svg" alt="">
+      </div>
+      <div class="navigation navigation--right">
         <img src="/assets/arrow-right.svg" alt="">
       </div>
       <table>

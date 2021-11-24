@@ -12,7 +12,7 @@
     </p>
   </div>
   <div class="cards mb-45">
-    <div class="card-type-3 mb-15">
+    <div class="card-type-3 goto-exp-team mb-15">
       <div class="left">
         <img src="/assets/mk-card-1.png" alt="">
       </div>
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="card-type-3">
+    <div class="card-type-3 goto-rank">
       <div class="left">
         <img src="/assets/mk-card-2.png" alt="">
       </div>
@@ -34,7 +34,7 @@
       </div>
     </div>
   </div>
-  <div class="ad-component ad-component mb-40">
+  <div id="exp-team" class="ad-component mb-40">
     <div class="ad-title ad-title--logo">
       <div class="logo">
         <img src="/assets/icon-networking.png" alt="">
@@ -51,7 +51,10 @@
           이끌어내기에 용이합니다.
         </p>
         <div class="table-container mb-45">
-          <div class="navigation">
+          <div class="navigation navigation--left">
+            <img src="/assets/arrow-right.svg" alt="">
+          </div>
+          <div class="navigation navigation--right">
             <img src="/assets/arrow-right.svg" alt="">
           </div>
           <table>
@@ -207,7 +210,7 @@
       </div>
     </div>
   </div>
-  <div class="ad-component ad-component mb-40">
+  <div id="rank" class="ad-component mb-40">
     <div class="ad-title ad-title--logo">
       <div class="logo">
         <img src="/assets/icon-networking.png" alt="">

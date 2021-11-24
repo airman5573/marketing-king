@@ -36,10 +36,10 @@ include_with_variable('/common/component/bottom-tab.php', array('current_path' =
 include_with_variable('/common/component/menu.php', array('current_path' => $current_path)); ?>
 </div> <!-- page -->
 
-</body>
 <script src="/common/js/menu.js"></script>
 <script src="/common/js/table-carousel.js"></script>
 <script src="/common/js/phone.js"></script>
+</body>
 <?php
   // 파일 존재 여부 검사할때는 앞의 /를 빼고 검사한다
   if (file_exists(substr($js_path, 1))) { ?>

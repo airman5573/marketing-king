@@ -196,8 +196,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/flow-facebook-1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1820,6 +1820,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/common\/js\/phone-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/common\/js\/phone-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/common\/js\/phone.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1827,6 +1838,39 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/common\/js\/phone-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/common\/js\/swipe-event-detector-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/common\/js\/swipe-event-detector-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/common\/js\/swipe-event-detector.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/common\/js\/swipe-event-detector-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/common\/js\/table-carousel-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/common\/js\/table-carousel-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

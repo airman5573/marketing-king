@@ -143,7 +143,7 @@
             <img src="/assets/icon-document-1.png" alt="">
           </div>
           <div class="bottom">
-            언로홍보
+            언론홍보
           </div>
         </div>
         <div class="icon">
@@ -189,7 +189,7 @@
         <img src="/assets/times-square-8.png" alt="">
       </div>
 
-      <div class="tag" style="right:20px; top: -36px;">
+      <div class="tag-3" style="right:20px; top: -36px;">
         보도자료가 게재된 미디어 숫자 총합,<br>
         뉴스 잠재 독자 총합
       </div>
@@ -198,7 +198,7 @@
       <div class="img-container box-shadow-1">
         <img src="/assets/times-square-9.png" alt="">
       </div>
-      <div class="tag" style="right: 20px; top: -42px;">
+      <div class="tag-3" style="right: 20px; top: -42px;">
         게재된 미디어와 해당<br>
         링크/미디어별 노출 분포
       </div>
@@ -213,7 +213,7 @@
       <div class="img-container box-shadow-1" style="width: 250px; position: absolute; right: 0; top: 150px;">
         <img src="/assets/times-square-12.png" alt="">
       </div>
-      <div class="tag" style="top: -34px; right: 20px;">
+      <div class="tag-3" style="top: -34px; right: 20px;">
         구글 , 바이두 등<br>
         주요 검색 엔진에 노출
       </div>

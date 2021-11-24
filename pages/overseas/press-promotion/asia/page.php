@@ -34,7 +34,10 @@
   <div class="ad-component">
     <h1 class="ad-title">아시아 홍보 서비스 구성표</h1>
     <div class="table-container table-container-1 col-3 mb-15">
-      <div class="navigation">
+      <div class="navigation navigation--left">
+        <img src="/assets/arrow-right.svg" alt="">
+      </div>
+      <div class="navigation navigation--right">
         <img src="/assets/arrow-right.svg" alt="">
       </div>
       <table>
@@ -94,7 +97,10 @@
   <div class="ad-component">
     <h1 class="ad-title lh-30">특정 국가만 선택해 홍보를<br/>진행하실 수도 있습니다.</h1>
     <div class="table-container simple table-container-2">
-      <div class="navigation">
+      <div class="navigation navigation--left">
+        <img src="/assets/arrow-right.svg" alt="">
+      </div>
+      <div class="navigation navigation--right">
         <img src="/assets/arrow-right.svg" alt="">
       </div>
       <table>

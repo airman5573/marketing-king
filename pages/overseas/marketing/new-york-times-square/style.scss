@@ -30,8 +30,11 @@
           margin-right: 10px;
           border-radius: 50%;
         }
-        h1 {
+        h4 {
           flex: 1;
+          span {
+            font-weight: inherit;
+          }
         }
       }
       p {

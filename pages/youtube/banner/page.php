@@ -19,7 +19,10 @@
     </p>
   </div>
   <div class="table-container table-container-1 col-4">
-    <div class="navigation">
+    <div class="navigation navigation--left">
+      <img src="/assets/arrow-right.svg" alt="">
+    </div>
+    <div class="navigation navigation--right">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
     <table>

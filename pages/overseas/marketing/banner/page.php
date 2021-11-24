@@ -13,7 +13,10 @@
     <p class="notice">영어 외 언어로 진행 시, 별도의 번역비용이 부과될 수 있습니다.</p>
   </div>
   <div class="table-container col-4 mb-45">
-    <div class="navigation">
+    <div class="navigation navigation--left">
+      <img src="/assets/arrow-right.svg" alt="">
+    </div>
+    <div class="navigation navigation--right">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
     <table>

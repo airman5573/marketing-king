@@ -13,7 +13,10 @@
     </p>
   </div>
   <div class="table-container col-4 mb-45">
-    <div class="navigation">
+    <div class="navigation navigation--left">
+      <img src="/assets/arrow-right.svg" alt="">
+    </div>
+    <div class="navigation navigation--right">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
     <table>
@@ -237,8 +240,8 @@
           <div class="sub-description">
             <div class="left">목적</div>
             <div class="right">
-              정수기, 공기청정기 등 생활가전에 관심이 있는 소비자들을 타게팅해<br/>
-              자사몰 유입자수를 증가시키고 실질적인 구매전환을<br/>
+              서울대학교 경영전문대학원에 관심을 가질 만한 잠재고객을 단기간에<br/>
+              모집해 입학설명회 페이지로 방문을 유도하고,  실질적인 수강 신청을<br/>
               이끌어 내고자 함
             </div>
           </div>

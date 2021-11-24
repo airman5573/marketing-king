@@ -6,7 +6,10 @@
     </p>
   </div>
   <div class="table-container col-4">
-    <div class="navigation">
+    <div class="navigation navigation--left">
+      <img src="/assets/arrow-right.svg" alt="">
+    </div>
+    <div class="navigation navigation--right">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
     <table>
@@ -129,7 +132,7 @@
             </div>
           </div>
         </div>
-        <div class="img-container mb-30">
+        <div class="img-container">
           <img src="/assets/flow-banner-lg-1.png" alt="">
         </div>
       </div>
@@ -168,7 +171,7 @@
       <h1>2. 페이스북광고</h1>
     </div>
     <div class="content">
-      <div class="row">
+      <div class="row mb-30">
         <h4 class="fc-main ls-5 mb-15">신규방문자 유입</h4>
         <p class="wide-p">
           광고하고자 하는 브랜드 및 제품 등과 관련 있는 키워드를<br/>
@@ -185,13 +188,13 @@
           <div class="sub-description">
             <div class="left">목적</div>
             <div class="right">
-              정수기, 공기청정기 등 생활가전에 관심이 있는 소비자들을 타게팅해<br/>
-              자사몰 유입자수를 증가시키고 실질적인 구매전환을<br/>
+              서울대학교 경영전문대학원에 관심을 가질 만한 잠재고객을 단기간에<br/>
+              모집해 입학설명회 페이지로 방문을 유도하고,  실질적인 수강 신청을<br/>
               이끌어 내고자 함
             </div>
           </div>
         </div>
-        <div class="img-container mb-30">
+        <div class="img-container">
           <img src="/assets/flow-facebook-1.png" alt="">
         </div>
       </div>
@@ -243,7 +246,7 @@
       </div>
     </div>
   </div>
-  <div class="ad-component ad-component--blog mb-40">
+  <div class="ad-component ad-component--blog mb-60">
     <div class="ad-title ad-title--logo">
       <div class="logo">
         <img src="/assets/icon-blog.png" alt="">

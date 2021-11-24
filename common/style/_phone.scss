@@ -1,7 +1,7 @@
 .phone {
   position: fixed;
   z-index: 2;
-  bottom: 50px;
+  bottom: 35px;
   right: 25px;
   width: 54px;
   height: 54px;
@@ -9,6 +9,6 @@
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
   &.at-bottom {
-    bottom: 90px;
+    opacity: 0;
   }
 }

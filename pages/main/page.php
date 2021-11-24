@@ -72,19 +72,19 @@
           'logo' => 'icon-seo.png',
           'title' => 'SEO 마케팅',
           'content' => 'N포탈 검색 시 검색결과를 최적화해 긍정 이미지를 메이킹하는 마케팅',
-          'link'  => ''
+          'link'  => '/package/seo'
         ],
         [
           'logo' => 'icon-google.png',
           'title' => '배너 광고',
           'content' => '포털 사용자를 대상으로 타게팅을 통해 배너를 노출시키는 광고',
-          'link'  => ''
+          'link'  => '/package/banner'
         ],
         [
           'logo' => 'icon-playstore.png',
           'title' => '어플 광고',
           'content' => '적극적인 잠재고객을 타겟으로 빠른 광고 효과를 경험할 수 있는 마케팅',
-          'link'  => ''
+          'link'  => '/package/application'
         ],
       ]
     ],
@@ -95,19 +95,19 @@
           'logo' => 'icon-loudspeaker.png',
           'title' => '프리미엄 언론홍보',
           'content' => '홍보이슈를 보도자료로 작성해 메이저 언론사 및 N포탈에 노출',
-          'link'  => ''
+          'link'  => '/viral/naver'
         ],
         [
           'logo' => 'icon-document-1.png',
           'title' => '초저가 언론홍보',
           'content' => '홍보이슈를 보도자료로 작성해 언론사 및 N포탈에 노출',
-          'link'  => ''
+          'link'  => '/viral/cost'
         ],
         [
           'logo' => 'icon-document-2.png',
           'title' => 'PR 배너',
           'content' => '보도자료 하단에 광고배너를 노출시켜 전환 효과를 극대화 하는 마케팅',
-          'link'  => ''
+          'link'  => '/viral/prbanner'
         ],
       ]
     ],
@@ -118,19 +118,19 @@
           'logo' => 'icon-video.png',
           'title' => '타임스퀘어 광고',
           'content' => '세계의 중심인 뉴욕타임스퀘어에 광고 이슈를 노출시키는 마케팅',
-          'link'  => ''
+          'link'  => '/business/timessquare'
         ],
         [
           'logo' => 'icon-facebook.png',
           'title' => '페이스북 광고',
           'content' => '타겟팅 된 소비자를 대상으로 전세계에 정보를 노출시키는 SNS 광고',
-          'link'  => ''
+          'link'  => '/business/worldfb'
         ],
         [
           'logo' => 'icon-google.png',
           'title' => '배너 광고',
           'content' => '타겟팅 된 소비자를 대상으로 전 세계에 정보를 노출시키는 배너 광고',
-          'link'  => ''
+          'link'  => '/business/worldbanner'
         ],
       ]
     ],
@@ -141,19 +141,19 @@
           'logo' => 'icon-asia.png',
           'title' => '아시아 홍보',
           'content' => '홍보이슈를 보도자료로 작성해 아시아 주요 언론사에 배포',
-          'link'  => ''
+          'link'  => '/online/world03'
         ],
         [
           'logo' => 'icon-america.png',
           'title' => '아메리카 홍보',
           'content' => '홍보이슈를 보도자료로 작성해 아메리카 주요 언론사에 배포',
-          'link'  => ''
+          'link'  => '/online/world02'
         ],
         [
           'logo' => 'icon-europe.png',
           'title' => '유럽홍보',
           'content' => '홍보이슈를 보도자료로 작성해 유럽 주요 언론사에 배포',
-          'link'  => ''
+          'link'  => '/online/world04'
         ],
       ]
     ],

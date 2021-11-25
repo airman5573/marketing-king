@@ -17,4 +17,9 @@
       }
     }
   }
+  .table-container table thead {
+    tr:nth-child(2) th {
+      border-top: none;
+    }
+  }
 }

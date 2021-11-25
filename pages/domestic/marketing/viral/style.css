@@ -14589,5 +14589,8 @@ img {
 }
 
 #page-wrapper > .container .img-container .labels span:nth-child(1) {
-  margin-right: 147px;
+  margin-right: 140px;
+}
+#page-wrapper > .container .table-container table thead tr:nth-child(2) th {
+  border-top: none;
 }

@@ -18,21 +18,21 @@
     }
     margin-bottom: 35px;
   }
-  .family-site, .company-info li, .all-rights, .logo img {
+  .company-info li, .all-rights, img {
     color: white;
     opacity: 0.4;
     font-weight: 400;
   }
   .family-site {
-    @include form-input-select();
+    display: flex;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
     position: relative;
     margin-bottom: 25px;
-    select {
-      /* Focus style */
-      &:focus {
-        background-color: transparent;
-        outline: none;
-      }
+    color: rgba($color: white, $alpha: 0.4);
+    span {
+      font-weight: 400;
+      line-height: 16px;
     }
     img {
       position: absolute;
@@ -40,6 +40,30 @@
       height: 6px;
       top: calc(50% - 3px);
       right: 20px;
+    }
+    ul {
+      height: 170px;
+      position: absolute;
+      top: calc(100% + 1px);
+      left: 0;
+      right: 0;
+      z-index: 2;
+      font-size: 14px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: -1px;
+      margin-right: -1px;
+      background-color: $color-gray-5;
+      color: white;
+      display: none;
+      flex-direction: column;
+      justify-content: space-around;
+      li {
+        padding-left: 18px;
+      }
+      &.active {
+        display: flex;
+      }
     }
   }
   .logo {

@@ -225,7 +225,7 @@
           키워드를 선정한 후, 협의 된 기간 동안 순위가 유지될 수<br>
           있도록 지속적인 관리를 진행해드립니다.
         </p>
-        <div class="big-notice mb-4">
+        <div class="big-notice mb-40">
           <div class="title">키워드 별로 비용이 상이합니다.</div>
           <div class="content">
             키워드 협의 및 비용 문의는 유선 혹은 상담신청으로<br>

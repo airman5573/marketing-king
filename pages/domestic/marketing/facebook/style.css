@@ -13732,128 +13732,22 @@ p {
   line-height: 20px;
   font-weight: 500;
 }
-#footer .family-site, #footer .company-info li, #footer .all-rights, #footer .logo img {
+#footer .company-info li, #footer .all-rights, #footer img {
   color: white;
   opacity: 0.4;
   font-weight: 400;
 }
 #footer .family-site {
-  display: block;
-  padding: 0;
-  position: relative;
-  /* Set options to normal weight */
-  /* ------------------------------------  */
-  /* START OF UGLY BROWSER-SPECIFIC HACKS */
-  /* ----------------------------------  */
-  /* FIREFOX won't let us hide the native select arrow, so we have to make it wider than needed and clip it via overflow on the parent container.
-     The percentage width is a fallback since FF 4+ supports calc() so we can just add a fixed amount of extra width to push the native arrow out of view. We're applying this hack across all FF versions because all the previous hacks were too fragile and complex.
-     You might want to consider not using this hack and using the native select arrow in FF. Note this makes the menus wider than the select button because they display at the specified width and aren't clipped. Targeting hack via http://browserhacks.com/#hack-758bff81c5c32351b02e10480b5ed48e */
-  /* Show only the native arrow */
-  color: white;
-  display: block;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 16px;
-  margin-top: 9px;
-  margin-bottom: 15px;
-  width: 100%;
+  display: flex;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
   position: relative;
   margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.4);
 }
-#footer .family-site::before, #footer .family-site::after {
-  content: "";
-  display: block;
-  position: absolute;
-  pointer-events: none;
-  z-index: 2;
-}
-#footer .family-site select {
-  -webkit-appearance: none;
-  appearance: none;
-  background: none;
-  box-sizing: border-box;
-  width: 100%;
-  margin: 0;
-  border: 1px solid transparent;
-  font-size: 16px;
-  outline: none;
-  /* Focus style */
-}
-#footer .family-site select:focus {
-  background-color: transparent;
-  outline: none;
-}
-#footer .family-site option {
-  font-weight: normal;
-}
-#footer .family-site x:-o-prefocus, #footer .family-site::after {
-  display: none;
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #footer .family-site select::-ms-expand {
-    display: none;
-  }
-  #footer .family-site select:focus::-ms-value {
-    background: transparent;
-    color: #000;
-  }
-}
-@-moz-document url-prefix() {
-  #footer .family-site {
-    overflow: hidden;
-  }
-  #footer .family-site select {
-    width: 120%;
-    width: -moz-calc(100% + 3em);
-    width: calc(100% + 3em);
-    /* Firefox focus has odd artifacts around the text, this kills that. See https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-focusring */
-  }
-  @supports (-moz-appearance: none) {
-    #footer .family-site select {
-      width: 100%;
-    }
-  }
-  #footer .family-site select:-moz-focusring {
-    color: transparent;
-    text-shadow: 0 0 0 #000;
-  }
-}
-@supports (-moz-appearance: none) {
-  #footer .family-site {
-    width: 100%;
-  }
-}
-@-moz-document url-prefix() {
-  #footer .family-site {
-    border-right: 1px solid white;
-  }
-}
-#footer .family-site select {
-  border: 1px solid white;
-  border-radius: 0;
+#footer .family-site span {
   font-weight: 400;
-  color: inherit;
-  padding: 11px 15px;
-  line-height: normal;
-  transition: border-color 0.2s ease, outline 0.2s ease;
-}
-#footer .family-site select:focus {
-  outline: 1px solid white;
-  outline-offset: -1px;
-}
-#footer .family-site select[disabled], #footer .family-site select:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-#footer .family-site select:not(:focus):invalid {
-  color: white;
-}
-#footer .family-site select {
-  /* Focus style */
-}
-#footer .family-site select:focus {
-  background-color: transparent;
-  outline: none;
+  line-height: 16px;
 }
 #footer .family-site img {
   position: absolute;
@@ -13861,6 +13755,30 @@ p {
   height: 6px;
   top: calc(50% - 3px);
   right: 20px;
+}
+#footer .family-site ul {
+  height: 170px;
+  position: absolute;
+  top: calc(100% + 1px);
+  left: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -1px;
+  margin-right: -1px;
+  background-color: #A5A7B0;
+  color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#footer .family-site ul li {
+  padding-left: 18px;
+}
+#footer .family-site ul.active {
+  display: flex;
 }
 #footer .logo {
   width: 128px;
@@ -13883,13 +13801,7 @@ p {
   display: flex;
 }
 #bottom-tab ul li {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  display: flex;
   flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 #bottom-tab ul li.active svg path {
   fill: #375FE0;
@@ -13897,16 +13809,24 @@ p {
 #bottom-tab ul li.active span {
   color: #375FE0;
 }
-#bottom-tab ul li svg {
+#bottom-tab ul li a {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#bottom-tab ul li a svg {
   display: block;
   width: 20px;
   height: 20px;
   margin-bottom: 6px;
 }
-#bottom-tab ul li svg path {
+#bottom-tab ul li a svg path {
   fill: rgba(0, 0, 0, 0.4);
 }
-#bottom-tab ul li span {
+#bottom-tab ul li a span {
   font-size: 12px;
   line-height: 12px;
   color: rgba(0, 0, 0, 0.4);

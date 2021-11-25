@@ -15,7 +15,7 @@
     <img src="/assets/youtube-1.png" alt="">
   </div>
   <div class="card-container mb-45">
-    <div class="card card-type-3">
+    <div class="card goto-premium-campaign card-type-3">
       <div class="left">
         <img src="/assets/youtube-2.png" alt="">
       </div>
@@ -30,7 +30,7 @@
         </p>
       </div>
     </div>
-    <div class="card card-type-3">
+    <div class="card goto-standard-campaign card-type-3">
       <div class="left">
         <img src="/assets/youtube-3.png" alt="">
       </div>
@@ -44,7 +44,7 @@
       </div>
     </div>
   </div>
-  <div class="ad-component mb-40">
+  <div id="premium-campaign" class="ad-component mb-40">
     <div class="ad-title ad-title--logo">
       <div class="logo">
         <img src="/assets/icon-youtube-plus.png" alt="">
@@ -129,7 +129,7 @@
       </div>
     </div>
   </div>
-  <div class="ad-component mb-40">
+  <div id="standard-campaign" class="ad-component mb-40">
     <div class="ad-title ad-title--logo">
       <div class="logo">
         <img src="/assets/icon-youtube-plus.png" alt="">

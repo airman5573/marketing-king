@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       아시아 지역으로의 <span class="fc-main">해외 진출, 상품 수출,<br/>
       투자 유치</span>를 원하십니까? 그렇다면 회사를<br/>
       해외에 효과적으로 알리는 것이 우선입니다.<br/>

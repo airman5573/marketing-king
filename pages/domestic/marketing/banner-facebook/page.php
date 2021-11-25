@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       신규고객 유치, 방문자 재유치 고민되시요?<br>
       지역, 성별, 연령, 관심사를 정밀하게 타겟팅한<br>
       페이스북 광고와 한 번 홈페이지에 유입된<br>

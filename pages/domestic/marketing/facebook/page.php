@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       정교하게 설정된 타게팅 그룹에 <span class="fc-main">전략적으로<br>
       기획, 제작 된 컨텐츠를 노출시켜 광고 효과를<br>
       극대화 하세요!</span>

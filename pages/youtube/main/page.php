@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-10">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       유튜브 마케팅이란 <span class="fc-main">유튜버들이 직접 서비스 및<br/>
       상품을 체험하고 리뷰 영상</span>을 촬영하거나,<br/>
       PPL 광고를 넣은 영상을 제작한 후 유튜브<br/>

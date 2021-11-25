@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       PC 및 모바일에 노출되는 배너광고, <span class="fc-main">광고주님의<br>
       잠재고객에게 배너를 노출시켜 전환을<br>
       이끌어내세요!</span>

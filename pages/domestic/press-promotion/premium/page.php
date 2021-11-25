@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       <span class="fc-main">N포탈 / D포탈 / G포탈 뉴스영역<br>
       PC-모바일 동시노출 !</span><br>
       현직기자 작성 고퀄리티 보도자료 무료 제공 !<br>

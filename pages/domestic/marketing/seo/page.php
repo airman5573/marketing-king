@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       SEO 마케팅은 포탈사이트에서 특정키워드를<br>
       검색시 검색 결과 페이지에 기업의 브랜드, 제품,<br>
       서비스  등의 정보를 노출시키는 광고입니다.

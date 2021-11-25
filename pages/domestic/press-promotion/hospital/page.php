@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       까다로운 병원 언론홍보! 병원언론홍보는<br>
       전문가에게 맡기셔야 확실합니다.<br>
       <span class="fc-main">병원언론홍보 12년 전문가,</span> 마케팅의 왕에서<br>

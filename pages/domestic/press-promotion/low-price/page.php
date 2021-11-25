@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       파격적인 가격!<br>
       언론홍보 비용부담을 확 줄인 <span class="fc-red">초저가 언론홍보!</span><br>
       언론사 <span class="fc-main">4곳 40만원!</span> 언론사 <span class="fc-main">8곳 70만원!</span>

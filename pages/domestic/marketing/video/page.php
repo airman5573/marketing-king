@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       동영상광고는 클라이언트가 제공한 <span class="fc-main">사진<br>
       이미지를 활용해 약 30초 분량의 이미지모션을<br>
       기획 및 제작</span>하고, 페이스북과 인스타그램,<br>

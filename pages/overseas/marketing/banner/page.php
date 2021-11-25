@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       배너광고를 통해 해외에 있는 잠재고객에게<br>
       제품 및 서비스를 노출하고 구매전환을<br>
       이끌어내세요!

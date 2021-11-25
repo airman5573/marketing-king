@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">
+    <p class="intro-main mb-10">
       <span class="fc-main">해외 진출, 상품 수출, 투자 유치</span>를 원하십니까?<br/>
       그렇다면 회사를 해외에 효과적으로 알리는 것이<br/>
       우선입니다. 진출하고자 하는 국가에<br/>

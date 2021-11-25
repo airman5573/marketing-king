@@ -1,6 +1,6 @@
 <div class="container">
   <div class="intro mb-30">
-    <p class="intro-main mb-15">여러 가지 채널, 속성이 다른 다양한 마케팅. <br/> 각각 진행하기 번거롭진 않으셨나요?</p>
+    <p class="intro-main mb-10">여러 가지 채널, 속성이 다른 다양한 마케팅. <br/> 각각 진행하기 번거롭진 않으셨나요?</p>
     <p class="intro-description">
       마케팅풀패키지는 <span class="fc-main">배너광고, 페이스북 - 인스타그램 광고, 유튜브 광고, 언론홍보, 블로그 마케팅을 한 번에 진행</span>해 드립니다. 광고기획부터 디자인, 운영까지 원스톱으로 진행되는 마케팅풀패키지로 편리함은 물론 귀사 마케팅의 효율까지 경험해보세요.
     </p>

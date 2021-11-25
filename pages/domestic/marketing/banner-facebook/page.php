@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       신규고객 유치, 방문자 재유치 고민되시요?<br>
       지역, 성별, 연령, 관심사를 정밀하게 타겟팅한<br>

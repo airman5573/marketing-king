@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       까다로운 부동산 언론홍보! 부동산언론홍보는<br>
       전문가에게 맡기셔야 확실합니다.<br>

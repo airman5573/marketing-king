@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       제품 구매를 확정하기 전, 소비자의 90%는<br>
       <span class="fc-main">검색</span>을 이용합니다. 네이버는 검색 시 가장 많이<br>

@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       파격적인 가격!<br>
       언론홍보 비용부담을 확 줄인 <span class="fc-red">초저가 언론홍보!</span><br>

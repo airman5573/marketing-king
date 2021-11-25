@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main">
       마케팅의 왕이 궁금하신가요?<br/>
       서비스 문의, 건의, 제휴 제안 문의 모두<br/>

@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main">
       어플리케이션, 출시는 했는데 어떻게 마케팅<br>
       해야 할 지 막막하시죠?<br>

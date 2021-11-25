@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       중동, 아프리카 지역으로의 <span class="fc-main">해외 진출, 상품 수출,<br/>
       투자 유치</span>를 원하십니까? 그렇다면 회사를<br/>

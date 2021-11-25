@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       PR배너 서비스란, 기업의 홍보 이슈를<br>
       보도자료로 작성하여 언론사에 배포 후 <span class="fc-main">보도된<br>

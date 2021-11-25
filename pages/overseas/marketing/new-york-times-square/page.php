@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <div class="card-type-4 mb-40">
       <div class="top">
         <img src="/assets/times-square-card.png" alt="">

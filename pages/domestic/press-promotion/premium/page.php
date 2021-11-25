@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       <span class="fc-main">N포탈 / D포탈 / G포탈 뉴스영역<br>
       PC-모바일 동시노출 !</span><br>

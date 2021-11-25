@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-30">
+  <div class="intro mb-25">
     <p class="intro-main mb-10">
       사이트검색광고란, ‘키워드 광고’ 또는<br/>
       ‘파워링크 광고’라고 부르기도 하며,<br/>

@@ -45,9 +45,9 @@
         </tr>
         <tr>
           <td class="sticky-col">서비스 비용</td>
-          <td class="bc-white">50만원<br/>45만원<br/><span class="fc-red">10%할인</span></td>
-          <td class="bc-white">100만원<br/>80만원<br/><span class="fc-red">20%할인</span></td>
-          <td class="bc-white">300만원<br/>150만원<br/><span class="fc-red">30%할인</span></td>
+          <td class="bc-white"><del class="fs-10">50만원</del><br/><span class="fs-12">45만원</span><br/><span class="fc-red fs-10">10%할인</span></td>
+          <td class="bc-white"><del class="fs-10">100만원</del><br/><span class="fs-12">80만원</span><br/><span class="fc-red fs-10">20%할인</span></td>
+          <td class="bc-white"><del class="fs-10">300만원</del><br/><span class="fs-12">150만원</span><br/><span class="fc-red fs-10">30%할인</span></td>
         </tr>
       </tbody>
     </table>

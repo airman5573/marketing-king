@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-40">
     <p class="intro-main mb-10">
       페이스북 광고를 통해 해외에 있는 잠재고객에게<br>
       제품 및 서비스를 노출하고 구매전환을<br>
@@ -14,7 +14,7 @@
       영어 외 언어로 진행 시, 별도의 번역비용이 부과될 수 있습니다.
     </p>
   </div>
-  <div class="table-container col-4 mb-45">
+  <div class="table-container col-4 mb-50">
     <div class="navigation navigation--left">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
@@ -69,10 +69,10 @@
       </tbody>
     </table>
   </div>
-  <div class="img-container mb-30">
+  <div class="img-container mb-40">
     <img src="/assets/worldmap.png" alt="">
   </div>
-  <div class="ad-component mb-40">
+  <div class="ad-component mb-50">
     <h1 class="ad-title">페이스북광고란?</h1>
     <div class="content">
       <div class="row mb-40">
@@ -91,7 +91,7 @@
         </div>
       </div>
       <div class="row">
-        <p class="wide-p">
+        <p class="wide-p mb-15">
           잠재 소비자의 타겟 국가 및 연령, 성별, 관심사 등을 설정하고,<br>
           해당 타겟의 페이스북 뉴스피드 및 인스타그램 피드에<br>
           광고 배넌 또는 동영상을 노출시켜 홈페이지로의 방문을<br>

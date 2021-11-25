@@ -29,6 +29,7 @@
     height: 3rem;
     width: 100%;
     font-size: 1rem;
+    font-weight: 400;
     margin: 0 0 15 0px;
     padding: 0;
     @extend .input-highlight;
@@ -50,7 +51,7 @@
     }
   }
   .form-row {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     label {
       font-size: 14px;
       line-height: 14px;

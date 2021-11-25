@@ -5,7 +5,7 @@
       잠재고객에게 배너를 노출시켜 전환을<br>
       이끌어내세요!</span>
     </p>
-    <p class="intro-description">
+    <p class="intro-description mb-30">
       마케팅에 필요한 <span class="fc-main">배너, 문구 기획 / 디자인 / 광고운영까지</span><br>
       마케팅의 왕이 광고에 필요한 모든 것을 대행해드립니다.
     </p>
@@ -65,11 +65,11 @@
       </tbody>
     </table>
   </div>
-  <div class="ad-component mb-40">
+  <div class="ad-component mb-50">
     <h1 class="ad-title">배너광고란?</h1>
     <div class="content">
       <div class="row">
-        <p class="wide-p">
+        <p class="wide-p mb-30">
           광고이슈가 있는 제품 및 서비스의 배너를 기획 및 제작해<br>
           pc와 모바일에서 동시에 노출시킴으로서, 잠재고객의<br>
           홈페이지 유입을 극대화 시키고 전환을 이끌어내는<br>
@@ -141,7 +141,7 @@
     <div class="content">
       <div class="row">
         <h4 class="fc-main ls-5 mb-15">신규방문자 유입</h4>
-        <p class="wide-p">
+        <p class="wide-p mb-30">
           광고하고자 하는 브랜드 및 제품 등과 관련 있는 키워드를<br/>
           선정하고, 잠재고객이 네이버, 다음, 네이트, 구글 등 포탈<br/>
           사이트에 해당 키워드를 검색하면 관련성이 높다고 판단되는<br/>

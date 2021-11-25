@@ -11,14 +11,14 @@
       이끌어 낼 수 있습니다.
     </p>
   </div>
-  <div class="img-container mb-40">
+  <div class="img-container mb-30">
     <img src="/assets/seo-1.png" alt="">
   </div>
-  <p>
+  <p class="mb-10">
     N포탈 SEO 서비스를 진행하시면 기업이 광고를 진행하기에<br>
     가장 적합한 키워드를 분석해 추천드립니다.
   </p>
-  <div class="img-container mb-20">
+  <div class="img-container mb-10">
     <img src="/assets/seo-2.png" alt="">
   </div>
   <div class="big-notice">

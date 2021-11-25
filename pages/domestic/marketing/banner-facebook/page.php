@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-30">
     <p class="intro-main mb-10">
       신규고객 유치, 방문자 재유치 고민되시요?<br>
       지역, 성별, 연령, 관심사를 정밀하게 타겟팅한<br>
@@ -81,10 +81,10 @@
     </table>
   </div>
   <div class="ad-component mb-40">
-    <h1 class="ad-title">배너 + 페이스북 광고란?</h1>
+    <h1 class="ad-title mb-15">배너 + 페이스북 광고란?</h1>
     <div class="content">
       <div class="row">
-        <p class="wide-p">
+        <p class="wide-p mb-40">
           광고하고자 하는 브랜드 및 제품 등과 관련 있는 키워드를<br/>
           선정하고, 잠재고객이 네이버, 다음, 네이트, 구글 등 포탈<br/>
           사이트에 해당 키워드를 검색하면 관련성이 높다고 판단되는<br/>
@@ -163,7 +163,7 @@
     <div class="content">
       <div class="row">
         <h4 class="fc-main ls-5 mb-15">신규방문자 유입</h4>
-        <p class="wide-p">
+        <p class="wide-p mb-40">
           광고하고자 하는 브랜드 및 제품 등과 관련 있는 키워드를<br/>
           선정하고, 잠재고객이 네이버, 다음, 네이트, 구글 등 포탈<br/>
           사이트에 해당 키워드를 검색하면 관련성이 높다고 판단되는<br/>

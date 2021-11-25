@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-35">
     <p class="intro-main mb-10">
       사이트검색광고란, ‘키워드 광고’ 또는<br/>
       ‘파워링크 광고’라고 부르기도 하며,<br/>
@@ -34,7 +34,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row mb-30">
     <h3 class="mb-10 fw-500 txt-align-center">왜, 네이버 사이트 검색광고를 진행해야 할까요?</h3>
     <div class="img-container pl-20 pr-20">
       <img src="/assets/search-site-3.png" alt="">

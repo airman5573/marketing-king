@@ -13514,6 +13514,10 @@
   color: #646464 !important;
 }
 
+.fc-gray-10 {
+  color: #333333 !important;
+}
+
 .fc-blue-1 {
   color: #E4EAFF !important;
 }
@@ -14043,6 +14047,10 @@ img {
   position: relative;
 }
 
+span {
+  font-weight: inherit;
+}
+
 #page-wrapper > .container > .intro .intro-main {
   font-size: 20px;
   font-weight: 500;
@@ -14263,7 +14271,7 @@ img {
 .blue-label .sub-description {
   display: flex;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   letter-spacing: -0.05em;
   line-height: 20px;
 }
@@ -14480,7 +14488,7 @@ img {
 .card-type-2 .top h5 {
   font-size: 14px;
   letter-spacing: -0.1em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: 500;
   text-decoration: underline;
   line-height: 24px;

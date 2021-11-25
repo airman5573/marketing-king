@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-40">
+  <div class="intro mb-35">
     <p class="intro-main mb-10">
       유튜브 배너 광고는 유튜브 플랫폼을 통해<br/>
       잠재소비자들에게 배너를 노출시키는<br/>
@@ -37,7 +37,7 @@
       </thead>
       <tbody>
         <tr>
-          <td class="sticky-col">최소<br>방문자</td>
+          <td class="sticky-col">홈페이지<br>방문자</td>
           <td>최소 1,000명 이상 보장</td>
           <td>최소 2,500명 이상 보장</td>
           <td>최소 5,000명 이상 보장</td>
@@ -88,8 +88,8 @@
       <h1>유튜브 배너 광고</h1>
     </div>
     <div class="content">
-      <div class="row">
-        <p class="wide-p">
+      <div class="row mb-50">
+        <p class="wide-p mb-35">
           광고하고자 하는 브랜드 및 제품 등에 관심을 보일만한<br/>
           타겟군(성별, 연령, 키워드 타게팅)을 선정하고, 잠재고객이<br/>
           유튜브에서 영상을 검색하거나 시청할 때 배너를<br/>
@@ -132,7 +132,7 @@
             <div class="left">진행사례</div>
             <div class="right">프랜차이즈, 명랑한 찜닭</div>
           </div>
-          <div class="sub-description mb-0 pb-0">
+          <div class="sub-description">
             <div class="left">목적</div>
             <div class="right">
               창업, 찜닭창업, 프랜차이즈창업, 소자본창업 등 명랑한찜닯 창업에<br/>

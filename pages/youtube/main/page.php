@@ -137,7 +137,7 @@
       <h1>스탠다드 캠페인</h1>
     </div>
     <div class="content">
-      <div class="row mb-40">
+      <div class="row mb-20">
         <p class="wide-p">
           평균적으로 <b>최소 1,000명 이상의 구독자를 보유한<br/>
           유튜버를 통해 체험단 영상을 제작</b>합니다. 저렴한 비용으로<br/>
@@ -197,8 +197,8 @@
               </tr>
               <tr>
                 <td class="sticky-col"></td>
-                <td class="bc-navy fc-white" colspan="2">유튜버 체험단 영상을 활용해 타겟팅 유튜브 광고 운영</td>
-                <td class="bc-navy fc-white" colspan="2">유튜버 체험단 영상을 활용해 타겟팅 유튜브 광고 운영</td>
+                <td class="bc-navy" colspan="2"><span class="fc-white">유튜버 체험단 영상을 활용해 타겟팅 유튜브 광고 운영</span></td>
+                <td class="bc-navy" colspan="2"><span class="fc-white">유튜버 체험단 영상을 활용해 타겟팅 유튜브 광고 운영</span></td>
               </tr>
               <tr>
                 <td class="sticky-col">광고<br>타겟팅</td>
@@ -249,7 +249,7 @@
   </div>
   <div class="row mb-50">
     <div class="blue-label mb-30">
-      <div class="title mb-10">
+      <div class="title mb-20">
         <div class="left">진행사례</div>
         <div class="right">뷰티, 패션</div>
       </div>
@@ -261,7 +261,7 @@
       </div>
     </div>
     <div class="blue-label mb-30">
-      <div class="title mb-10">
+      <div class="title mb-20">
         <div class="left">진행사례</div>
         <div class="right">건강, 다이어트</div>
       </div>
@@ -273,7 +273,7 @@
       </div>
     </div>
     <div class="blue-label mb-30">
-      <div class="title mb-10">
+      <div class="title mb-20">
         <div class="left">진행사례</div>
         <div class="right">음식, 식당</div>
       </div>
@@ -285,7 +285,7 @@
       </div>
     </div>
     <div class="blue-label">
-      <div class="title mb-10">
+      <div class="title mb-20">
         <div class="left">진행사례</div>
         <div class="right">IT, 전자기기</div>
       </div>

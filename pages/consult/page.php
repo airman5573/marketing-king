@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-35">
     <p class="intro-main">
       마케팅의 왕이 궁금하신가요?<br/>
       서비스 문의, 건의, 제휴 제안 문의 모두<br/>
@@ -106,7 +106,7 @@
       </div>
     </div>
     <div class="form-row mb-45">
-      <label for="content" class="mb-20">문의내용</label>
+      <label for="content" class="mb-20 required">문의내용</label>
       <textarea name="content" id="content" cols="30" rows="8" placeholder="문의하실 내용을 입력해주세요."></textarea>
     </div>
     <button type="submit">문의하기</button>

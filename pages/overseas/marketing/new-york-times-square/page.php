@@ -7,7 +7,7 @@
       <div class="bottom bc-navy fc-white">
         <h2>뉴욕타임스퀘어</h2>
         <div class="box bc-blue-10">전광판 광고</div>
-        <p>
+        <p class="lh-24">
           세계 엔터테인먼트 산업의 중심지로<br/>‘세계의 교차로’, ‘우주의 중심’, ‘불야성의 거리’라 불리는<br/>뉴욕 타임스퀘어 전광판에<br/>귀사의 광고를 노출시킬 수 있습니다.
         </p>
       </div>

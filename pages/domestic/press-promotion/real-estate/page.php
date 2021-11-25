@@ -99,8 +99,8 @@
       <h1>부동산 언론홍보란?</h1>
     </div>
     <div class="content">
-      <div class="row mb-40">
-        <p class="wide-p">
+      <div class="row mb-30">
+        <p class="wide-p mb-35">
           부동산 홍보 이슈를 기사화하여 언론을 통해 홍보를 해드리는<br>
           서비스로서 특히 N포탈에서 검색 시 노출이 가능하므로<br>
           가장 효과적인 홍보를 할 수 있습니다.
@@ -110,7 +110,7 @@
             <div class="left">진행사례</div>
             <div class="right">오션클라우드 중문</div>
           </div>
-          <div class="sub-description">
+          <div class="sub-description mb-0">
             <div class="left">배경</div>
             <div class="right">
               지하 3층 ~ 지상 7층 총 366실의 수익형 레지던스 오피스텔<br>
@@ -147,7 +147,7 @@
           </div>
         </div>
       </div>
-      <div class="row mb-40">
+      <div class="row mb-30">
         <div class="ad-title ad-title--logo ad-title--small">
           <div class="logo">
             <img src="/assets/icon-google.png" alt="">
@@ -177,9 +177,9 @@
         <div class="content">
           <div class="row">
             <p class="fs-12 ls-10 lh-20">
-              주요 포탈사이트에서 제주도 분양, 중문 분양, 제주도 투자, 제주도 부동산 투자 등<br>
-              키워드를 검색한 사용자에게 해당 내용이 포함된 홈페이지를 방문했을 시,<br>
-              아래의 배너를 노출시키고 전화를 통한 분양 문의 및 홈페이지 유입을 유도함
+              30 ~ 50세 대한민국 남녀 중 제주도 분양, 제주도 투자, 부동산 투자 등의 키워드에<br/>
+              관심을 보인 잠재고객의 페이스북 뉴스피드에 광고배너를 노출시며 홈페이지<br/>
+              유입 및 전화를 통한 분양상담을 이끌어 냄
             </p>
             <div class="img-container">
               <img src="/assets/real-estate-4.png" alt="">

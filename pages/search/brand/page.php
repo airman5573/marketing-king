@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-35">
     <p class="intro-main mb-10">
       브랜드검색이란 브랜드 연관 키워드를 사용자가<br/>
       검색할 경우, 통합검색 결과 상단에 브랜드와<br/>

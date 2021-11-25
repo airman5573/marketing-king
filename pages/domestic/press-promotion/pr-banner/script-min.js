@@ -1,1 +1,1 @@
-tableCarousel(".table-container");
+tableCarousel(".table-container",3);

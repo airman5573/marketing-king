@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-40">
     <p class="intro-main mb-10">
       제품 구매를 확정하기 전, 소비자의 90%는<br>
       <span class="fc-main">검색</span>을 이용합니다. 네이버는 검색 시 가장 많이<br>
@@ -34,7 +34,7 @@
       </div>
     </div>
   </div>
-  <div id="exp-team" class="ad-component mb-40">
+  <div id="exp-team" class="ad-component mb-50">
     <div class="ad-title ad-title--logo">
       <div class="logo">
         <img src="/assets/icon-networking.png" alt="">
@@ -210,7 +210,7 @@
       </div>
     </div>
   </div>
-  <div id="rank" class="ad-component mb-40">
+  <div id="rank" class="ad-component mb-50">
     <div class="ad-title ad-title--logo">
       <div class="logo">
         <img src="/assets/icon-networking.png" alt="">
@@ -226,15 +226,15 @@
           있도록 지속적인 관리를 진행해드립니다.
         </p>
         <div class="big-notice mb-40">
-          <div class="title">키워드 별로 비용이 상이합니다.</div>
+          <div class="title">서비스 비용은 키워드 별로 비용이 상이합니다.</div>
           <div class="content">
-            키워드 협의 및 비용 문의는 유선 혹은 상담신청으로<br>
-            문의해주시기 바랍니다.
+            담당 AE와의 협의를 통해 효율이 높은<br/>
+            키워드를 선정하시기 바랍니다.<br/>
           </div>
         </div>
         <div class="img-container">
           <div class="labels">
-            <span>&#60;PC&#62;</span>
+            <span class="mr-150">&#60;PC&#62;</span>
             <span>&#60;모바일&#62;</span>
           </div>
           <img src="/assets/viral-feature-2.png" alt="">

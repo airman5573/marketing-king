@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-30">
     <p class="intro-main">
       어플리케이션, 출시는 했는데 어떻게 마케팅<br>
       해야 할 지 막막하시죠?<br>
@@ -8,7 +8,7 @@
       이끌어내세요!</span>
     </p>
   </div>
-  <div class="table-container col-4 mb-40">
+  <div class="table-container col-4 mb-45">
     <div class="navigation navigation--left">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
@@ -109,7 +109,7 @@
         <div class="img-container box-shadow-1 py-9 px-5 mb-20">
           <img src="/assets/marketing-application-1.png" alt="">
         </div>
-        <p class="lh-30 mb-30">
+        <p class="lh-30 mb-40">
           마케팅의 왕은 어플 설치 수와 긍정적인 리뷰로 광고하고자<br>
           하는 어플이 사용자들의 이목을 사로잡을 수 있도록<br>
           어플마케팅의 성공전략을 제시해드립니다.

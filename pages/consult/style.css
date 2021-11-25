@@ -13514,6 +13514,10 @@
   color: #646464 !important;
 }
 
+.fc-gray-10 {
+  color: #333333 !important;
+}
+
 .fc-blue-1 {
   color: #E4EAFF !important;
 }
@@ -14043,6 +14047,10 @@ img {
   position: relative;
 }
 
+span {
+  font-weight: inherit;
+}
+
 #page-wrapper > .container > .intro .intro-main {
   font-size: 20px;
   font-weight: 500;
@@ -14263,7 +14271,7 @@ img {
 .blue-label .sub-description {
   display: flex;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   letter-spacing: -0.05em;
   line-height: 20px;
 }
@@ -14428,6 +14436,7 @@ img {
   height: 3rem;
   width: 100%;
   font-size: 1rem;
+  font-weight: 400;
   margin: 0 0 15 0px;
   padding: 0;
 }
@@ -14443,7 +14452,7 @@ img {
   color: #F11415;
 }
 #page-wrapper > .container .form-row {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 #page-wrapper > .container .form-row label {
   font-size: 14px;

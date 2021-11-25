@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-40">
     <p class="intro-main mb-10">
       <span class="fc-main">해외 진출, 상품 수출, 투자 유치</span>를 원하십니까?<br/>
       그렇다면 회사를 해외에 효과적으로 알리는 것이<br/>
@@ -12,8 +12,8 @@
       노출</span> 할 수 있습니다.
     </p>
   </div>
-  <div class="blue-label">
-    <div class="title">
+  <div class="blue-label mb-20">
+    <div class="title mb-10">
       <div class="left">해외통합 언론홍보</div>
       <div class="right">커버리지</div>
     </div>
@@ -79,7 +79,7 @@
         </tbody>
       </table>
     </div>
-    <p class="notice ls-10 fc-main mb-45">
+    <p class="notice ls-10 fc-main mb-45 lh-20">
       해당 서비스 구성표는 영어 기준 400단어 이하의 보도자료와 사진 1장을 포함한<br/>
       비용으로 길이 및 사진이 추가 될 경우 비용이 달라질 수 있습니다.
     </p>

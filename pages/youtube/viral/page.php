@@ -125,12 +125,12 @@
     <div class="source">*출처 : 메조미디어 타켓리포트(2021)</div>
   </div>
   <div class="ad-component">
-    <p class="wide-p fs-20 ls-10">
+    <p class="wide-p fs-20 ls-10 lh-30">
       <span class="fc-red">유튜브</span>는 관심 있는 콘텐츠 시청뿐만 아니라
-      정보검색 용도로도 많이 활용되고 있습니다.
-      특히 바쁜 현대인들은 관심있는 영상을 재생시켜
-      놓고 댓글 속에서 빠르게 정보를 얻습니다.
-      유튜브를 통한 기업 브랜드 홍보/바이럴
+      정보검색 용도로도 많이 활용되고 있습니다.<br/>
+      특히 바쁜 현대인들은 관심있는 영상을 재생시켜<br/>
+      놓고 댓글 속에서 빠르게 정보를 얻습니다.<br/>
+      유튜브를 통한 기업 브랜드 홍보/바이럴<br/>
       마케팅을 마케팅의 왕에서 대행해드립니다.
     </p>
     <div class="table-container col-3 table-container-1 mb-50">

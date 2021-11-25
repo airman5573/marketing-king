@@ -7,12 +7,12 @@
       유튜브 채널을 통해 광고하는<br>
       영상광고 솔루션입니다.
     </p>
-    <p class="notice fs-16 fw-500 ls-10">
+    <p class="notice fs-16 fw-500 ls-10 lh-30">
       직접 취재를 통한 동영상 제작을 원할 경우 50만원의<br>
       추가비용이 발생합니다. 서울 및 수도권 지역만 가능합니다.
     </p>
   </div>
-  <div class="table-container col-4 mb-40">
+  <div class="table-container col-4 mb-45">
     <div class="navigation navigation--left">
       <img src="/assets/arrow-right.svg" alt="">
     </div>
@@ -96,7 +96,7 @@
     </table>
   </div>
   <div class="ad-component ad-component mb-40">
-    <h1 class="ad-title">이미지모션이란?</h1>
+    <h1 class="ad-title mb-20">이미지모션이란?</h1>
     <div class="content">
       <div class="row">
         <p class="wide-p">

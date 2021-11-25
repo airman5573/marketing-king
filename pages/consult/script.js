@@ -53,6 +53,11 @@ $('form').on('submit', function() {
     return false;
   }
 
+  if ($('textarea[name=content]').val().length < 1) {
+    alert("문의내용을 입력해주세요");
+    return false;
+  }
+
   return true;
 });
 

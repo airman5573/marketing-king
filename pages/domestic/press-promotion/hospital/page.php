@@ -100,7 +100,7 @@
     </div>
     <div class="content">
       <div class="row">
-        <p class="wide-p">
+        <p class="wide-p mb-35">
           병원의 홍보 이슈를 기사화하여 언론을 통해 홍보를 해드리는<br>
           서비스로서 특히 N포탈에서 검색 시 노출이 가능하므로<br>
           가장 효과적인 홍보를 할 수 있습니다.
@@ -110,7 +110,7 @@
             <div class="left">진행사례</div>
             <div class="right">눈에미소안과</div>
           </div>
-          <div class="sub-description">
+          <div class="sub-description mb-0">
             <div class="left">배경</div>
             <div class="right">
               눈에미소안과 브랜드 및 의료 서비스를 소비자들에게 효과적으로<br>

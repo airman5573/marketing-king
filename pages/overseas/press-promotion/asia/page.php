@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-35">
     <p class="intro-main mb-10">
       아시아 지역으로의 <span class="fc-main">해외 진출, 상품 수출,<br/>
       투자 유치</span>를 원하십니까? 그렇다면 회사를<br/>
@@ -19,14 +19,14 @@
     </p>
   </div>
   <div class="blue-label mb-40">
-    <div class="title">
+    <div class="title mb-10">
       <div class="left">아시아 홍보</div>
       <div class="right">커버리지</div>
     </div>
     <div class="sub-description">
       <img src="/assets/worldmap-4.png" alt="">
     </div>
-    <p class="notice ls-10">
+    <p class="notice ls-10 fc-gray-10 lh-20">
       아시아 홍보를 통해 가장 홍보 니즈가 많은 일본, 중국은 물론 호주,뉴질랜드 등을<br>
       포함한 아태지역 전체에 홍보가 가능합니다.
     </p>
@@ -89,7 +89,7 @@
         </tbody>
       </table>
     </div>
-    <p class="notice ls-10 fc-main mb-45">
+    <p class="notice ls-10 fc-main mb-45 lh-20">
       해당 서비스 구성표는 영어 기준 400단어 이하의 보도자료와 사진 1장을 포함한<br/>
       비용으로 길이 및 사진이 추가 될 경우 비용이 달라질 수 있습니다.
     </p>

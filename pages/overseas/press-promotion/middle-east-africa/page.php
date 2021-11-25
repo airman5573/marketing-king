@@ -20,16 +20,16 @@
     </p>
   </div>
   <div class="blue-label mb-40">
-    <div class="title">
+    <div class="title mb-10">
       <div class="left">중동&아프리카 홍보</div>
       <div class="right">커버리지</div>
     </div>
     <div class="sub-description">
-      <img src="/assets/worldmap-5.png" alt="">
+      <img src="/assets/worldmap-6.png" alt="">
     </div>
-    <p class="notice ls-10">
-      유럽 홍보를 통해 가장 홍보 니즈가 많은 영국, 스페인, 독일은 물론 이탈리아,<br/>
-      폴란드, 핀란드 등을 포함한 유럽지역 전체에  홍보가 가능합니다.
+    <p class="notice ls-10 fc-gray-10 lh-20">
+      중동 & 아프리카 홍보를 통해 남아프리카공화국, 터키, 이란, 사우디아라비아,<br/>
+      두바이 등을 포함한 중동, 아프리카 지역 전체에 홍보가 가능합니다.
     </p>
   </div>
   <div class="ad-component">
@@ -90,7 +90,7 @@
         </tbody>
       </table>
     </div>
-    <p class="notice ls-10 fc-main mb-45">
+    <p class="notice ls-10 fc-main mb-45 lh-20">
       해당 서비스 구성표는 영어 기준 400단어 이하의 보도자료와 사진 1장을 포함한<br/>
       비용으로 길이 및 사진이 추가 될 경우 비용이 달라질 수 있습니다.
     </p>

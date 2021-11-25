@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-40">
+  <div class="intro mb-30">
     <p class="intro-main mb-5">
       유튜브 동영상 광고는 인스트림 광고와<br/>
       범퍼 광고를 활용해 잠재고객들에게 제품 및<br/>
@@ -88,8 +88,8 @@
           <td class="sticky-col">서비스 비용</td>
           <td>120만원</td>
           <td>190만원</td>
-          <td>120만원</td>
-          <td>120만원</td>
+          <td>360만원</td>
+          <td>620만원</td>
         </tr>
       </tbody>
     </table>
@@ -147,7 +147,7 @@
         <div class="left">진행사례</div>
         <div class="right">유기농 생리대 브랜드, 에어퀸</div>
       </div>
-      <div class="sub-description">
+      <div class="sub-description mb-0">
         <div class="left">목적</div>
         <div class="right">
           생리대, 유기농 생리대, 피부 등에 관심이 있을만한 20세 ~ 54세<br/>

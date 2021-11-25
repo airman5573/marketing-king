@@ -103,7 +103,7 @@
     </div>
     <div class="content">
       <div class="row">
-        <p class="wide-p">
+        <p class="wide-p mb-35">
           프리미엄 언론홍보란 보도된 뉴스기사를 N포탈에서<br>
           검색했을 때 PC와 모바일(스마트폰, 태블릿PC)에<br>
           동시 노출이 가능하도록 하는 서비스입니다.<br>

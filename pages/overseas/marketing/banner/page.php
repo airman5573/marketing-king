@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="intro mb-25">
+  <div class="intro mb-40">
     <p class="intro-main mb-10">
       배너광고를 통해 해외에 있는 잠재고객에게<br>
       제품 및 서비스를 노출하고 구매전환을<br>
@@ -78,9 +78,9 @@
       <h1>배너광고</h1>
     </div>
     <div class="content">
-      <div class="row">
+      <div class="row mb-50">
         <h4 class="fc-main ls-5 mb-15">신규방문자 유입</h4>
-        <p class="wide-p">
+        <p class="wide-p mb-30">
           광고하고자 하는 브랜드 및 제품 등과 관련 있는 키워드를<br/>
           선정하고, 잠재고객이 네이버, 다음, 네이트, 구글 등 포탈<br/>
           사이트에 해당 키워드를 검색하면 관련성이 높다고 판단되는<br/>
@@ -92,7 +92,7 @@
             <div class="left">진행사례</div>
             <div class="right">KMS</div>
           </div>
-          <div class="sub-description">
+          <div class="sub-description mb-5">
             <div class="left">목적</div>
             <div class="right">
               일본, 태국, 인도네시아, 베트남, 싱가포르 등 K-POP 열풍이 일고 있는<br>
@@ -101,7 +101,7 @@
             </div>
           </div>
         </div>
-        <div class="img-container mb-30">
+        <div class="img-container">
           <img src="/assets/overseas-marketing-banner-1.png" alt="">
         </div>
       </div>
@@ -117,7 +117,7 @@
             <div class="left">진행사례</div>
             <div class="right">KMS</div>
           </div>
-          <div class="sub-description">
+          <div class="sub-description mb-5">
             <div class="left">목적</div>
             <div class="right ls-12">
               타 광고 및 직접유입을 통해 한 번 홈페이지에 방문한 사용자를<br>

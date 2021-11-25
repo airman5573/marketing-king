@@ -85,7 +85,7 @@
     </div>
     <div class="content">
       <div class="row">
-        <p class="wide-p">
+        <p class="wide-p mb-30">
           언론홍보란 기업의 PR이슈를 보도자료로 작성해<br>
           언론사에 배포하고, 포탈사이트에서 검색 시 뉴스 영역에<br>
           노출될 수 있도록 하는 서비스입니다.<br>

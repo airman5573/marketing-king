@@ -14063,7 +14063,6 @@ span {
 
 .table-container {
   position: relative;
-  margin-right: -10px;
   overflow: hidden;
   margin-bottom: 10px;
 }
@@ -14201,6 +14200,9 @@ span {
 }
 .table-container.col-2 .navigation {
   display: none;
+}
+.table-container.simple {
+  margin-right: -15px;
 }
 .table-container.simple table thead th {
   background-color: #AFBFF3 !important;

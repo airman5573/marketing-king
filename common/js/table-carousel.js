@@ -2,6 +2,14 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
   const $ = jQuery;
   const $tableContainer = $(tableContainer);
   const $table = $(tableContainer + ' table');
+  const $stickyCols = $(tableContainer + ' table .sticky-col');
+  const $navigationLeft = $(tableContainer + ' .navigation--left');
+  const $navigationRight = $(tableContainer + ' .navigation--right');
+  const stickyColWidth = $stickyCols.outerWidth(true);
+  const duration = 300;
+  const threadhold = 50;
+  const MaxMarginLeft = -1 * ($table.outerWidth() - $tableContainer.outerWidth() + 1);
+  const [SECTION_FIRST, SECTION_MIDDLE, SECTION_LAST] = [0, 1, -1];
   let sections = [];
   const ths = $(tableContainer + ' table thead tr th:not(.sticky-col)');
   if (section === 2) {
@@ -11,16 +19,8 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
       sections = [parseInt(ths[0].offsetWidth, 10), parseInt(ths[1].offsetWidth, 10)];
     }
   } else if (section === 3) {
-    sections = [parseInt(ths[0].offsetWidth, 10), parseInt(ths[1].offsetWidth, 10), parseInt(ths[2].offsetWidth, 10)];
+    sections = [parseInt(ths[0].offsetWidth, 10), parseInt(ths[1].offsetWidth, 10), parseInt(($tableContainer.outerWidth() - stickyColWidth - ths[1].offsetWidth), 10)];
   }
-
-  const $stickyCols = $(tableContainer + ' table .sticky-col');
-  const $navigationLeft = $(tableContainer + ' .navigation--left');
-  const $navigationRight = $(tableContainer + ' .navigation--right');
-  const tableWidth = $table.outerWidth(true);
-  const stickyColWidth = $stickyCols.outerWidth(true);
-  const duration = 300;
-  const [SECTION_FIRST, SECTION_MIDDLE, SECTION_LAST] = [0, 1, -1];
   
   let startMarginLeft = 0;
   let startX = 0;
@@ -39,8 +39,7 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
     startX = touch.clientX;
     const currentMarginLeft = parseInt($table.css('margin-left'), 10);
     const dist = currentMarginLeft + xDiff;
-    const _max = sections.reduce((acc, cur) => acc + cur, 0) - sections[sections.length - 1];
-    if (dist > 0 || Math.abs(dist) >= _max) return;
+    if (dist > 0 || Math.abs(dist) >= Math.abs(MaxMarginLeft)) return;
     $table.css({'margin-left': parseInt(dist, 10)});
   });
 
@@ -75,17 +74,15 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
     $table.bind('touchend', function(e){
       const currentMarginLeft = parseInt($table.css('margin-left'), 10);
       const currentSection = getCurrentSection(startMarginLeft);
-      const sectionWidth = sections[(currentSection < 0 ? sections.length - 1 : currentSection)];
-      const halfOfSection = parseInt(sectionWidth/2, 10);
 
       if (currentSection === SECTION_FIRST) {
-        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 40) {
+        if (Math.abs(startMarginLeft - currentMarginLeft) < threadhold) {
           move(SECTION_FIRST, 0);
         } else {
-          move(SECTION_LAST, -1*sectionWidth);
+          move(SECTION_LAST, MaxMarginLeft);
         }
       } else {
-        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 40) {
+        if (Math.abs(startMarginLeft - currentMarginLeft) < threadhold) {
           move(SECTION_LAST, startMarginLeft);
         } else {
           move(SECTION_FIRST, 0)
@@ -104,30 +101,28 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
       const currentMarginLeft = parseInt($table.css('margin-left'), 10);
       const currentSection = getCurrentSection(startMarginLeft, sections[0]);
       const dist = Math.abs(startMarginLeft - currentMarginLeft);
-      const sectionWidth = sections[(currentSection < 0 ? sections.length - 1 : currentSection)]; // -1 이 들어올수도 있으니까~
-      const halfOfSection = parseInt(sectionWidth/2, 10);
 
       if (currentSection === SECTION_FIRST) {
-        if (dist < halfOfSection - 30) {
+        if (dist < threadhold) {
           move(SECTION_FIRST, 0);
         } else {
-          move(SECTION_MIDDLE, -1*sectionWidth);
+          move(SECTION_MIDDLE, -1*sections[0]);
         }
       }
       else if (currentSection === SECTION_MIDDLE) {
-        if (dist < halfOfSection - 30) {
-          move(SECTION_MIDDLE, -1*sectionWidth);
+        if (dist < threadhold) {
+          move(SECTION_MIDDLE, -1*sections[0]);
         } else if (startMarginLeft < currentMarginLeft) {
           move(SECTION_FIRST, 0);
         } else {
-          move(SECTION_LAST, -2*sectionWidth);
+          move(SECTION_LAST, MaxMarginLeft);
         }
       }
       else {
-        if (Math.abs(startMarginLeft - currentMarginLeft) < halfOfSection - 30) {
+        if (Math.abs(startMarginLeft - currentMarginLeft) < threadhold) {
           move(SECTION_LAST, startMarginLeft);
         } else {
-          move(SECTION_MIDDLE, -1*sectionWidth);
+          move(SECTION_MIDDLE, -1*sections[0]);
         }
       }
     });

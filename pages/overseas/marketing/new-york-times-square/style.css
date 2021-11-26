@@ -14051,6 +14051,13 @@ span {
   font-weight: inherit;
 }
 
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #page-wrapper > .container > .intro .intro-main {
   font-size: 20px;
   font-weight: 500;

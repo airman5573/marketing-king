@@ -43,7 +43,7 @@
     <div class="form-row">
       <label for="position">직급 / 직책</label>
       <div class="form-field">
-        <input id="position" name="position" type="text" placeholder="직함을 입력해 주세요">
+        <input id="position" name="position" type="text" placeholder="직함을 입력해 주세요.">
       </div>
     </div>
     <div class="form-row">

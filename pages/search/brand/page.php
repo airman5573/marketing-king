@@ -29,9 +29,9 @@
     </div>
   </div>
   <div class="row mb-45">
-    <div class="box-shadow-1 pt-30 pb-30 pl-12 pr-12">
-      <div class="row pl-40 pr-40 mb-15">
-        <p class="bc-gray-3 py-10 px-10 txt-align-center">
+    <div class="box-shadow-1 pt-30 pb-30 pl-12 pr-12 vertical-center">
+      <div class="row mb-15">
+        <p class="bc-gray-3 py-10 px-10 txt-align-center fw-500">
           어떤 <span class="fc-main">키워드</span>로 광고하나요?
         </p>
       </div>
@@ -43,8 +43,8 @@
           가장 빠르게 유치할 수 있는 효과적인 광고입니다.
         </p>
       </div>
-      <div class="row pl-40 pr-40 mb-15">
-        <p class="bc-gray-3 py-10 px-10 txt-align-center">
+      <div class="row mb-15">
+        <p class="bc-gray-3 py-10 px-10 txt-align-center fw-500">
           <span class="fc-main">어디에 몇 개가</span> 노출되나요?
         </p>
       </div>
@@ -55,8 +55,8 @@
           노출 위치가 달라질 수는 있습니다.
         </p>
       </div>
-      <div class="row pl-40 pr-40 mb-15">
-        <p class="bc-gray-3 py-10 px-10 txt-align-center">
+      <div class="row mb-15">
+        <p class="bc-gray-3 py-10 px-10 txt-align-center fw-500">
           <span class="fc-main">광고비는</span> 어떻게 산정되나요?
         </p>
       </div>

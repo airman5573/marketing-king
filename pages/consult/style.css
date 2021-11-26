@@ -14051,6 +14051,13 @@ span {
   font-weight: inherit;
 }
 
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #page-wrapper > .container > .intro .intro-main {
   font-size: 20px;
   font-weight: 500;
@@ -14434,6 +14441,12 @@ span {
 #page-wrapper > .container input, #page-wrapper > .container textarea {
   font-weight: 400;
 }
+#page-wrapper > .container textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
 #page-wrapper > .container input[type=text] {
   background-color: transparent;
   height: 3rem;
@@ -14544,6 +14557,7 @@ span {
   margin-left: -20px;
   padding-left: 20px;
   z-index: 100;
+  font-weight: 400;
 }
 #page-wrapper > .container .form-row input[type=radio]:checked ~ .checkbox,
 #page-wrapper > .container .form-row input[type=checkbox]:checked ~ .checkbox {

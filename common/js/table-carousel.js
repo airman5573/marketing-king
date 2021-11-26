@@ -8,7 +8,7 @@ function tableCarousel(tableContainer = '.table-container', section = 2) {
   const stickyColWidth = $stickyCols.outerWidth(true);
   const duration = 300;
   const threadhold = 50;
-  const MaxMarginLeft = -1 * ($table.outerWidth() - $tableContainer.outerWidth() + 1);
+  const MaxMarginLeft = -1 * ($table.outerWidth() - $tableContainer.outerWidth() + 15 + 1);
   const [SECTION_FIRST, SECTION_MIDDLE, SECTION_LAST] = [0, 1, -1];
   let sections = [];
   const ths = $(tableContainer + ' table thead tr th:not(.sticky-col)');

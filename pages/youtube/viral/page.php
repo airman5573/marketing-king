@@ -125,7 +125,7 @@
     <div class="source">*출처 : 메조미디어 타켓리포트(2021)</div>
   </div>
   <div class="ad-component">
-    <p class="wide-p fs-20 ls-10 lh-30">
+    <p class="wide-p fs-20 ls-10 lh-36">
       <span class="fc-red">유튜브</span>는 관심 있는 콘텐츠 시청뿐만 아니라
       정보검색 용도로도 많이 활용되고 있습니다.<br/>
       특히 바쁜 현대인들은 관심있는 영상을 재생시켜<br/>
@@ -200,7 +200,7 @@
         <p>실제 경험한 듯한 리뷰 / 후기 형태의 댓글 노출</p>
       </div>
       <div class="effect">
-        <span class="red-box">유립량 극대화</span>
+        <span class="red-box">유입량 극대화</span>
         <p>평균 키워드 검색량 및 유입량의 상승 곡선</p>
       </div>
     </div>

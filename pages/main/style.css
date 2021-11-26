@@ -13759,6 +13759,8 @@ p {
   height: 6px;
   top: calc(50% - 3px);
   right: 20px;
+  transition-duration: 0.2s;
+  transition-property: all;
 }
 #footer .family-site ul {
   height: 170px;
@@ -13781,8 +13783,11 @@ p {
 #footer .family-site ul li {
   padding-left: 18px;
 }
-#footer .family-site ul.active {
+#footer .family-site.active ul {
   display: flex;
+}
+#footer .family-site.active img {
+  transform: rotateZ(180deg);
 }
 #footer .logo {
   width: 128px;
@@ -14937,16 +14942,23 @@ button.swiper-pagination-bullet {
 #page-wrapper > .container .best-3 .bg-3 {
   background-color: #0C93B0;
 }
-#page-wrapper > .container .best-3 .swiper-wrapper {
+#page-wrapper > .container .best-3 .swiper {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+#page-wrapper > .container .best-3 .swiper .swiper-wrapper {
   overflow: scroll;
   -ms-overflow-style: none;
 }
-#page-wrapper > .container .best-3 .swiper-wrapper::-webkit-scrollbar {
+#page-wrapper > .container .best-3 .swiper .swiper-wrapper::-webkit-scrollbar {
   display: none;
 }
-#page-wrapper > .container .best-3 .swiper-slide {
+#page-wrapper > .container .best-3 .swiper .swiper-slide {
   width: 205px;
 }
-#page-wrapper > .container .best-3 .swiper-slide .container {
+#page-wrapper > .container .best-3 .swiper .swiper-slide:first-child {
+  margin-left: 15px;
+}
+#page-wrapper > .container .best-3 .swiper .swiper-slide .container {
   padding-right: 10px;
 }

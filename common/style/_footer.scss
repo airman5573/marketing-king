@@ -40,6 +40,8 @@
       height: 6px;
       top: calc(50% - 3px);
       right: 20px;
+      transition-duration: 0.2s;
+      transition-property: all;
     }
     ul {
       height: 170px;
@@ -61,8 +63,11 @@
       li {
         padding-left: 18px;
       }
-      &.active {
-        display: flex;
+    }
+    &.active {
+      ul { display: flex; }
+      img {
+        transform: rotateZ(180deg);
       }
     }
   }

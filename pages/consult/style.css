@@ -13759,6 +13759,8 @@ p {
   height: 6px;
   top: calc(50% - 3px);
   right: 20px;
+  transition-duration: 0.2s;
+  transition-property: all;
 }
 #footer .family-site ul {
   height: 170px;
@@ -13781,8 +13783,11 @@ p {
 #footer .family-site ul li {
   padding-left: 18px;
 }
-#footer .family-site ul.active {
+#footer .family-site.active ul, #footer #page-wrapper > .container input.family-site[type=text]:focus ul, #page-wrapper > .container #footer input.family-site[type=text]:focus ul {
   display: flex;
+}
+#footer .family-site.active img, #footer #page-wrapper > .container input.family-site[type=text]:focus img, #page-wrapper > .container #footer input.family-site[type=text]:focus img {
+  transform: rotateZ(180deg);
 }
 #footer .logo {
   width: 128px;

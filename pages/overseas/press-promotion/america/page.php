@@ -240,7 +240,7 @@
       </div>
     </div>
   </div>
-  <div class="ad-component success-case">
+  <div class="ad-component success-case mb-60">
     <h1 class="ad-title">해외통합 언론홍보 성공사례</h1>
     <div class="content">
       <p class="lh-30 mb-25">
@@ -347,7 +347,7 @@
   <div class="ad-component result-report">
     <h1 class="ad-title">결과보고서</h1>
     <div class="content">
-      <p class="lh-30 mb-50">
+      <p class="lh-30 mb-60">
         보도자료가 게재된 미디어와 링크가 포함된 커버리지<br/>
         결과 보고서를 제공해 드립니다. 이 결과 보고서는<br/>
         마케팅 커뮤니케이션 참고자료로 활용할 수 있습니다.
@@ -363,7 +363,7 @@
           <div class="tag-3" style="top: -40px; right: 20px;">보도자료가 게재된 미디어 숫자 총합,<br/>뉴스 잠재 독자 총합</div>
         </div>
       </div>
-      <div class="case">
+      <div class="case mb-60">
         <div class="tag-container">
           <div class="img-container box-shadow-1--no-radius">
             <img src="/assets/overseas-press-promotion-all-19.png" alt="">
@@ -391,7 +391,7 @@
           </div>
         </div>
       </div>
-      <div class="case">
+      <div class="case mb-60">
         <div class="tag-container">
           <div class="img-container box-shadow-1--no-radius">
             <img src="/assets/overseas-press-promotion-all-23.png" alt="">

@@ -10,14 +10,14 @@
     <div class="form-row">
       <label class="required mb-20">구분</label>
       <div class="form-field">
-        <div class="field-container mr-30">
+        <div class="field-container checkbox-container">
           <input id="customer-type--new" name="type" type="radio">
-          <div class="checkbox"></div>
+          <div class="checkbox"><img src="/assets/check.svg" alt=""></div>
           <label for="customer-type--new" class="fw-400">신규 고객</label>
         </div>
-        <div class="field-container">
+        <div class="field-container checkbox-container">
           <input id="customer-type--prolong" name="type" type="radio">
-          <div class="checkbox"></div>
+          <div class="checkbox"><img src="/assets/check.svg" alt=""></div>
           <label for="customer-type--prolong" class="fw-400">연장 고객</label>
         </div>
       </div>
@@ -72,34 +72,34 @@
       </div>
     </div>
     <div class="form-row">
-      <label for="position" class="d-block mb-15">상담구분</label>
+      <label for="position" class="d-block mb-20">상담구분</label>
       <div class="form-field">
         <div class="row d-flex">
-          <div class="field-container mr-20">
+          <div class="field-container checkbox-container">
             <input id="consult-type-1" class="d-none" name="sec1[]" type="checkbox">
-            <div class="checkbox"></div>
+            <div class="checkbox"><img src="/assets/check.svg" alt=""></div>
             <label for="consult-type-1">국내 마케팅</label>
           </div>
-          <div class="field-container">
+          <div class="field-container checkbox-container">
             <input id="consult-type-2" class="d-none" name="sec1[]" type="checkbox">
-            <div class="checkbox"></div>
+            <div class="checkbox"><img src="/assets/check.svg" alt=""></div>
             <label for="consult-type-2">해외 마케팅</label>
           </div>
         </div>
         <div class="row d-flex">
-          <div class="field-container mr-20">
+          <div class="field-container checkbox-container">
             <input id="consult-type-3" class="d-none" name="sec1[]" type="checkbox">
-            <div class="checkbox"></div>
+            <div class="checkbox"><img src="/assets/check.svg" alt=""></div>
             <label for="consult-type-3">국내 언론홍보</label>
           </div>
-          <div class="field-container mr-20">
+          <div class="field-container checkbox-container">
             <input id="consult-type-4" class="d-none" name="sec1[]" type="checkbox">
-            <div class="checkbox"></div>
+            <div class="checkbox"><img src="/assets/check.svg" alt=""></div>
             <label for="consult-type-4">해외 언론홍보</label>
           </div>
-          <div class="field-container">
+          <div class="field-container checkbox-container">
             <input id="consult-type-5" class="d-none" name="sec1[]" type="checkbox">
-            <div class="checkbox"></div>
+            <div class="checkbox"><img src="/assets/check.svg" alt=""></div>
             <label for="consult-type-5">기타</label>
           </div>
         </div>

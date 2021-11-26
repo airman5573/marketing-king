@@ -25,33 +25,33 @@
         </div>
         <div class="bar-set">
           <div class="bar-container">
-            <span class="num">52</span>
+            <span class="num"><small>52</small></span>
             <div class="bar bc-gray-left" style="height: 124px;"></div>
           </div>
           <div class="bar-container">
-            <span class="num">59</span>
+            <span class="num"><small>59</small></span>
             <div class="bar bc-gray-right" style="height: 145px;"></div>
           </div>
           <label>포털사이트</label>
         </div>
         <div class="bar-set">
           <div class="bar-container">
-            <span class="num">24</span>
+            <span class="num"><small>24</small></span>
             <div class="bar bc-gray-left" style="height: 41px;"></div>
           </div>
           <div class="bar-container">
-            <span class="num">44</span>
+            <span class="num"><small>44</small></span>
             <div class="bar bc-gray-right" style="height: 81px;"></div>
           </div>
           <label>SNS</label>
         </div>
         <div class="bar-set">
           <div class="bar-container">
-            <span class="num">18</span>
+            <span class="num"><small>18</small></span>
             <div class="bar bc-gray-left" style="height: 30px;"></div>
           </div>
           <div class="bar-container">
-            <span class="num">29</span>
+            <span class="num"><small>29</small></span>
             <div class="bar bc-gray-right" style="height: 53px;"></div>
           </div>
           <label>쇼핑이커머스</label>
@@ -86,33 +86,33 @@
         </div>
         <div class="bar-set">
           <div class="bar-container">
-            <span class="num">42</span>
+            <span class="num"><small>42</small></span>
             <div class="bar bc-gray-left" style="height: 92px;"></div>
           </div>
           <div class="bar-container">
-            <span class="num">49</span>
+            <span class="num"><small>49</small></span>
             <div class="bar bc-gray-right" style="height: 107px;"></div>
           </div>
           <label>네이버TV</label>
         </div>
         <div class="bar-set">
           <div class="bar-container">
-            <span class="num">31</span>
+            <span class="num"><small>31</small></span>
             <div class="bar bc-gray-left" style="height: 67px;"></div>
           </div>
           <div class="bar-container">
-            <span class="num">30</span>
+            <span class="num"><small>30</small></span>
             <div class="bar bc-gray-right" style="height: 58px;"></div>
           </div>
           <label>OTT</label>
         </div>
         <div class="bar-set">
           <div class="bar-container">
-            <span class="num">16</span>
+            <span class="num"><small>16</small></span>
             <div class="bar bc-gray-left" style="height: 22px;"></div>
           </div>
           <div class="bar-container">
-            <span class="num">33</span>
+            <span class="num"><small>13</small></span>
             <div class="bar bc-gray-right" style="height: 79px;"></div>
           </div>
           <label>인스타그램</label>
@@ -201,7 +201,7 @@
       </div>
       <div class="effect">
         <span class="red-box">유립량 극대화</span>
-        <p>평균 키워드 검색량 및 유입랴의 상승 곡선</p>
+        <p>평균 키워드 검색량 및 유입량의 상승 곡선</p>
       </div>
     </div>
     <div class="img-container mb-30">

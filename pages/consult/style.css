@@ -14417,7 +14417,7 @@ span {
 #page-wrapper > .container .input-highlight, #page-wrapper > .container input[type=text] {
   border: none;
   outline: none;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(0, 0, 0, 0.15);
   transition: all 0.3s;
@@ -14430,6 +14430,9 @@ span {
 #page-wrapper > .container .input-highlight.active, #page-wrapper > .container input.active[type=text], #page-wrapper > .container input[type=text]:focus {
   border-bottom-color: #375FE0;
   box-shadow: 0 1px 0 0 #375FE0;
+}
+#page-wrapper > .container input, #page-wrapper > .container textarea {
+  font-weight: 400;
 }
 #page-wrapper > .container input[type=text] {
   background-color: transparent;
@@ -14530,9 +14533,22 @@ span {
 #page-wrapper > .container .form-row:nth-child(7) .form-field .emails li[rel=hide] {
   display: none;
 }
-#page-wrapper > .container .form-row input[type=radio]:checked ~ .checkbox::before,
-#page-wrapper > .container .form-row input[type=checkbox]:checked ~ .checkbox::before {
+#page-wrapper > .container .form-row .checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+#page-wrapper > .container .form-row .checkbox-container label {
+  position: relative;
+  margin-left: -20px;
+  padding-left: 20px;
+  z-index: 100;
+}
+#page-wrapper > .container .form-row input[type=radio]:checked ~ .checkbox,
+#page-wrapper > .container .form-row input[type=checkbox]:checked ~ .checkbox {
   background-color: #375FE0;
+  border: none;
 }
 #page-wrapper > .container .form-row .checkbox {
   position: relative;
@@ -14541,15 +14557,7 @@ span {
   height: 14px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   margin-right: 5px;
-}
-#page-wrapper > .container .form-row .checkbox::before {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 10px;
-  left: 1px;
-  top: 1px;
+  padding: 3px;
 }
 #page-wrapper > .container .form-row:nth-child(9) {
   display: flex;
@@ -14566,4 +14574,5 @@ span {
   color: white;
   padding-top: 25px;
   padding-bottom: 25px;
+  font-size: 16px;
 }

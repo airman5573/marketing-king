@@ -30,7 +30,7 @@
       position: relative;
       display: flex;
       justify-content: center;
-      border-bottom: 2px solid #626571;
+      border-bottom: 1px solid #626571;
       .num {
         font-size: 14px;
         line-height: 14px;
@@ -61,10 +61,11 @@
         justify-content: space-between;
         margin-left: 10px;
         margin-right: 10px;
+        small { font-size: 10px; }
         .bar-container {
           display: flex;
           flex-direction: column;
-          justify-content: end;
+          justify-content: flex-end;
           text-align: center;
         }
         .bar {
@@ -120,6 +121,7 @@
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    * { letter-spacing: -0.1em; }
   }
   .table-container {
     tbody {

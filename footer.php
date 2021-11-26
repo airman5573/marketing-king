@@ -1,8 +1,8 @@
 <div id="footer">
   <ul class="links">
-    <li><a href="">회사소개</a></li>
-    <li><a href="">개인정보 취급방침</a></li>
-    <li><a href="">찾아오시는 길</a></li>
+    <li><a href="http://teraplanet.co.kr/kr/teraplanet.php">회사소개</a></li>
+    <li><a href="http://www.marketingking.co.kr/customer/provision.php">개인정보 취급방침</a></li>
+    <li><a href="http://www.marketingking.co.kr/popup/pers_pop2.html">찾아오시는 길</a></li>
   </ul>
   <div class="family-site">
     <span>Family site</span> <img src="/assets/arrow-down.svg" alt="">

@@ -10,7 +10,7 @@
   .input-highlight {
     border: none;
     outline: none;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgba(0, 0, 0, 0.15);
     transition: all .3s;
@@ -23,6 +23,9 @@
       border-bottom-color: $color-main;
       box-shadow: 0 1px 0 0 $color-main;
     }
+  }
+  input, textarea {
+    font-weight: 400;
   }
   input[type=text] {
     background-color: transparent;
@@ -130,11 +133,22 @@
         }
       }
     }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin-right: 30px;
+      margin-bottom: 10px;
+      label {
+        position: relative;
+        margin-left: -20px;
+        padding-left: 20px;
+        z-index: 100;
+      }
+    }
     input[type=radio]:checked ~ .checkbox,
     input[type=checkbox]:checked ~ .checkbox {
-      &::before {
-        background-color: $color-main;
-      }
+      background-color: $color-main;
+      border: none;
     }
     .checkbox {
       position: relative;
@@ -143,15 +157,7 @@
       height: 14px;
       border: 1px solid rgba(0, 0, 0, 0.15);
       margin-right: 5px;
-      &::before {
-        display: block;
-        position: absolute;
-        content: '';
-        width: 10px;
-        height: 10px;
-        left: 1px;
-        top: 1px;
-      }
+      padding: 3px;
     }
     &:nth-child(9) {
       display: flex;
@@ -169,5 +175,6 @@
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
+    font-size: 16px;
   }
 }

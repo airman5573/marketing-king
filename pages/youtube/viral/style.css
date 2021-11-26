@@ -14612,7 +14612,7 @@ span {
   position: relative;
   display: flex;
   justify-content: center;
-  border-bottom: 2px solid #626571;
+  border-bottom: 1px solid #626571;
 }
 #page-wrapper > .container .chart .inner .num {
   font-size: 14px;
@@ -14645,10 +14645,13 @@ span {
   margin-left: 10px;
   margin-right: 10px;
 }
+#page-wrapper > .container .chart .inner .bar-set small {
+  font-size: 10px;
+}
 #page-wrapper > .container .chart .inner .bar-set .bar-container {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   text-align: center;
 }
 #page-wrapper > .container .chart .inner .bar-set .bar {
@@ -14698,6 +14701,9 @@ span {
   padding-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
+}
+#page-wrapper > .container .chart-container * {
+  letter-spacing: -0.1em;
 }
 #page-wrapper > .container .table-container tbody tr:last-child td:not(:first-child) {
   background-color: white;

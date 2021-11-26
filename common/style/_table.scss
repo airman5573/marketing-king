@@ -1,6 +1,6 @@
 .table-container {
   position: relative;
-  // margin-right: -10px;
+  margin-right: -15px;
   overflow: hidden;
   margin-bottom: 10px;
   .navigation {
@@ -155,7 +155,6 @@
   }
 
   &.simple {
-    margin-right: -15px;
     table {
       thead th {
         background-color: $color-blue-3 !important;

@@ -35,6 +35,9 @@
         &:first-child {
           margin-left: 15px;
         }
+        &:last-child {
+          margin-right: 5px;
+        }
         width: 205px;
         .container {
           padding-right: 10px;

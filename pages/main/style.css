@@ -14959,6 +14959,9 @@ button.swiper-pagination-bullet {
 #page-wrapper > .container .best-3 .swiper .swiper-slide:first-child {
   margin-left: 15px;
 }
+#page-wrapper > .container .best-3 .swiper .swiper-slide:last-child {
+  margin-right: 5px;
+}
 #page-wrapper > .container .best-3 .swiper .swiper-slide .container {
   padding-right: 10px;
 }

@@ -1,0 +1,7 @@
+*.tgn
+*.pdf
+*.itmz
+*.zip
+*.DS_Store
+./*.DS_Store
+.DS_Store

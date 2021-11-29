@@ -14451,6 +14451,8 @@ span {
   background-color: transparent;
   resize: none;
   outline: none;
+  font-size: 14px;
+  -webkit-appearance: none;
 }
 #page-wrapper > .container input[type=text] {
   background-color: transparent;

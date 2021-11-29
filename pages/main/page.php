@@ -18,7 +18,7 @@
         <!-- Slides -->
         <div class="swiper-slide">
           <div class="container">
-            <div class="card-type-1">
+            <a href="package/banner_facebook" class="card-type-1">
               <div class="top">
                 <img src="/assets/best3-1.png" alt="">
               </div>
@@ -28,12 +28,12 @@
                   포탈사이트와 SNS를 동시에 타게팅 해 배너 및 동영상 등 컨텐츠를 노출시키고 홈페이지 유입을 유도하는 마케팅
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="container">
-            <div class="card-type-1">
+            <a href="package/full_package" class="card-type-1">
               <div class="top">
                 <img src="/assets/best3-2.png" alt="">
               </div>
@@ -43,12 +43,12 @@
                   배너, 페이스북, 언론홍보, 블로그 마케팅 이 모든 마케팅을 한 번에 진행 할 수 있는 원스톱 마케팅 솔루션
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="container">
-            <div class="card-type-1">
+            <a href="youtube/youreview" class="card-type-1">
               <div class="top">
                 <img src="/assets/best3-3.png" alt="">
               </div>
@@ -58,7 +58,7 @@
                   타겟팅 된 유튜브 사용자들에게 동영상, 배너를 노출시켜 클릭을 유도하고 브랜드 인지도를 향상시키는 마케팅
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

@@ -14453,6 +14453,9 @@ span {
   outline: none;
   font-size: 14px;
   -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 #page-wrapper > .container input[type=text] {
   background-color: transparent;

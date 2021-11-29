@@ -34,6 +34,9 @@
     outline: none;
     font-size: 14px;
     -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
   }
   input[type=text] {
     background-color: transparent;

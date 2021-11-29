@@ -29,6 +29,33 @@
   <img src="/assets/icon-phone.svg" alt="">
 </a>
 
+<script>
+  function CopyUrlToClipboard(){
+    const dummy   = document.createElement("input");
+    const url = window.location.href;
+    const hash = window.location.hash;
+    const index_of_hash = url.indexOf(hash) || url.length;
+    const hashless_url = url.substr(0, index_of_hash);
+    var text    = hashless_url;
+    document.body.appendChild(dummy);
+    dummy.value = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+    alert("URL이 복사되었습니다");
+  }
+</script>
+
+<div id="share-modal" class="modal">
+  <ul class="share-box">
+		<li style="text-align:center;"><b>SNS 공유하기</b></li>
+		<li id="kakaotalk" class="share-li"><img src="/assets/icon-kakao.png"><span>카카오톡</span></li>
+    <li id="instagram" class="share-li"><img src="/assets/icon-instagram.svg"><span>인스타그램</span></li>
+		<li id="facebook" class="share-li"><img src="/assets/icon-facebook-2.png"><span>페이스북</span></li>
+		<li id="url-copy" class="share-li" onClick="CopyUrlToClipboard();"><img src="/assets/icon-share.svg"><span>URL 복사</span></li>
+	</ul>
+</div>
+
 <?php
 
 include_with_variable('/common/component/bottom-tab.php', array('current_path' => $current_path)); ?>
@@ -40,6 +67,7 @@ include_with_variable('/common/component/menu.php', array('current_path' => $cur
 <script src="/common/js/table-carousel.js"></script>
 <script src="/common/js/phone.js"></script>
 <script src="/common/js/family-site.js"></script>
+<script src="/common/js/modal.js"></script>
 </body>
 <?php
   // 파일 존재 여부 검사할때는 앞의 /를 빼고 검사한다

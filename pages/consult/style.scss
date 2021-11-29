@@ -116,7 +116,7 @@
         height: 12px;
         position: absolute;
         right: 20px;
-        z-index: 100;
+        z-index: 5;
       }
       $select-color: #fff;
       $select-background: #c0392b;
@@ -153,7 +153,7 @@
         position: relative;
         margin-left: -20px;
         padding-left: 20px;
-        z-index: 100;
+        z-index: 5;
         font-weight: 400;
       }
     }

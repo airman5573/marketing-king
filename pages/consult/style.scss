@@ -21,7 +21,6 @@
     box-sizing: content-box;
     &.active {
       border-bottom-color: $color-main;
-      box-shadow: 0 1px 0 0 $color-main;
     }
   }
   input, textarea {
@@ -41,6 +40,7 @@
   input[type=text] {
     background-color: transparent;
     height: 3rem;
+    line-height: 3rem;
     width: 100%;
     font-size: 1rem;
     font-weight: 400;
@@ -49,7 +49,7 @@
     @extend .input-highlight;
   }
   input[type=text]:focus {
-    @extend .active;
+    border-bottom-color: $color-main;
   }
   input::placeholder {
     color: #7F8080;
@@ -179,6 +179,9 @@
       border: 1px solid rgba(0, 0, 0, 0.15);
       padding: 15px;
     }
+  }
+  .form-field--email {
+    // border: none;
   }
   button[type=submit] {
     width: 100%;

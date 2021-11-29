@@ -13783,10 +13783,10 @@ p {
 #footer .family-site ul li {
   padding-left: 18px;
 }
-#footer .family-site.active ul, #footer #page-wrapper > .container input.family-site[type=text]:focus ul, #page-wrapper > .container #footer input.family-site[type=text]:focus ul {
+#footer .family-site.active ul {
   display: flex;
 }
-#footer .family-site.active img, #footer #page-wrapper > .container input.family-site[type=text]:focus img, #page-wrapper > .container #footer input.family-site[type=text]:focus img {
+#footer .family-site.active img {
   transform: rotateZ(180deg);
 }
 #footer .logo {
@@ -14598,9 +14598,8 @@ span {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-#page-wrapper > .container .input-highlight.active, #page-wrapper > .container input.active[type=text], #page-wrapper > .container input[type=text]:focus {
+#page-wrapper > .container .input-highlight.active, #page-wrapper > .container input.active[type=text] {
   border-bottom-color: #375FE0;
-  box-shadow: 0 1px 0 0 #375FE0;
 }
 #page-wrapper > .container input, #page-wrapper > .container textarea {
   font-weight: 400;
@@ -14619,11 +14618,15 @@ span {
 #page-wrapper > .container input[type=text] {
   background-color: transparent;
   height: 3rem;
+  line-height: 3rem;
   width: 100%;
   font-size: 1rem;
   font-weight: 400;
   margin: 0 0 15 0px;
   padding: 0;
+}
+#page-wrapper > .container input[type=text]:focus {
+  border-bottom-color: #375FE0;
 }
 #page-wrapper > .container input::placeholder {
   color: #7F8080;

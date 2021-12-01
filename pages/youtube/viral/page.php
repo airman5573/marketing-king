@@ -208,36 +208,36 @@
       <img src="/assets/youtube-viral-marketing.png" alt="">
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '서비스 신청,<br/>결제',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '광고주의<br/>제품 및 서비스 분석',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '동일 카테고리의<br/>유튜브 영상 분석',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '구독자, 조회수, 댓글<br/>액션이 높은 영상 분석',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '유튜브<br/>바이럴 침투',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '결과보고서<br/>제공',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '바이럴<br/>효과',
       'customer-todo' => true,
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array(

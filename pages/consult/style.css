@@ -14617,12 +14617,11 @@ span {
 }
 #page-wrapper > .container input[type=text] {
   background-color: transparent;
-  height: 3rem;
-  line-height: 3rem;
+  height: 3.2rem;
   width: 100%;
   font-size: 1rem;
   font-weight: 400;
-  margin: 0 0 15 0px;
+  margin: 0 0 0 0px;
   padding: 0;
 }
 #page-wrapper > .container input[type=text]:focus {

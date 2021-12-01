@@ -1,12 +1,9 @@
 <?php
-require_once 'PhpConsole/Start.php';
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
-}
+
 define( 'SITE_URI', "http://$_SERVER[HTTP_HOST]");
 require_once 'utils.php';
 
-$uri_matching = [
+$uri_matching = array(
   'package/full_package' => 'pages/domestic/marketing/full-pacakge',
   'package/seo'  => 'pages/domestic/marketing/seo',
   'package/banner_facebook' => 'pages/domestic/marketing/banner-facebook',
@@ -41,10 +38,12 @@ $uri_matching = [
   'search/brandsearch' => 'pages/search/brand',
 
   'customer/apply' => 'pages/consult'
-];
+);
+
 
 $uri = strtok($_SERVER["REQUEST_URI"], '?');
 $uri = substr($uri, 1); // 맨앞의 / 제거
+
 if (strlen($uri) > 0) {
   $page_path = $uri_matching[$uri] . '/' . 'page.php';
   if (file_exists($page_path)) {
@@ -60,3 +59,4 @@ if (strlen($uri) > 0) {
 include_with_variable('header.php', array('css_path' => '/pages/main/style.css'));
 include_once 'pages/main/page.php';
 include_with_variable('footer.php', array('js_path' => '/pages/main/script.js', 'current_path' => 'home'));
+?>

@@ -147,28 +147,28 @@
       </div>
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '서비스 신청,<br/>결제',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '서비스 신청서 작성 및 전달 /<br/>리타게팅 코드 삽입',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '배너 제작<br/>및 컨펌',
-    ],
-    [
+    ),
+    array(
       'todo' => '배너 등록<br/>및 승인',
-    ],
-    [
+    ),
+    array(
       'todo' => '서비스<br/>진행',
-    ],
-    [
+    ),
+    array(
       'todo' => '결과보고서<br/>제공',
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array(

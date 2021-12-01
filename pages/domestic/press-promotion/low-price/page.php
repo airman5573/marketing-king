@@ -115,36 +115,36 @@
       </div>
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '서비스 신청,<br/>결제',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '기초자료<br/>제공',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '보도자료<br/>작성',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '보도자료<br/>확정',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '보도자료<br/>배포',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '뉴스기사<br/>언론보도',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '결과보고서<br/>제출',
       'customer-todo' => true,
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array( 

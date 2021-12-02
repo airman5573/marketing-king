@@ -297,48 +297,48 @@
       </div>
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '서비스 신청,<br/>결제',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '기초자료<br/>제공',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '유튜버<br/>모집',
-    ],
-    [
+    ),
+    array(
       'todo' => '유튜버<br/>확정',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '상세 진행<br/>기획안 제공',
       'check' => true
-    ],
-    [
+    ),
+    array(
       'todo' => '제품 공급<br/>or 업체 방문',
       'customer-todo' => true
-    ],
-    [
+    ),
+    array(
       'todo' => '영상<br/>제작',
-    ],
-    [
+    ),
+    array(
       'todo' => '영상<br/>컨펌',
       'customer-todo' => true,
       'check' => true
-    ],
-    [
+    ),
+    array(
       'todo' => '영상<br/>업로드',
-    ],
-    [
+    ),
+    array(
       'todo' => '유튜브 동영상<br/>광고 운영',
-    ],
-    [
+    ),
+    array(
       'todo' => '결과보고서<br/>제공',
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array(

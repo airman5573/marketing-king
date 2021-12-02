@@ -25,6 +25,14 @@
       "oAP" : "\/.htaccess",
       "oF" : 0
     },
+    "\/apply_process.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/apply_process.php",
+      "oF" : 0
+    },
     "\/assets\/arrow-down.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -4236,6 +4244,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/PhpConsole\/Storage\/Session.php",
+      "oF" : 0
+    },
+    "\/test.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/test.php",
       "oF" : 0
     },
     "\/two.tgn" : {

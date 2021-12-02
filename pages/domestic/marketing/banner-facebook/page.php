@@ -276,36 +276,36 @@
       </div>
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '서비스 신청,<br/>결제',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '리마케팅 태그 /<br/>페이스북 픽셀 전달',
       'customer-todo' => false,
-    ],
-    [
+    ),
+    array(
       'todo' => '기초자료 작성, 전달 /<br/>태그, 소스 삽입',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '진행 기획안<br/>제공',
       'customer-todo' => false,
-    ],
-    [
+    ),
+    array(
       'todo' => '진행 기획안 컴펌 및<br/>수정 요청(1회)',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '서비스<br/>진행',
       'customer-todo' => false,
-    ],
-    [
+    ),
+    array(
       'todo' => '결과보고서<br/>제공',
       'customer-todo' => false,
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array(

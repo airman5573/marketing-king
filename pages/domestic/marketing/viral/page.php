@@ -242,28 +242,28 @@
       </div>
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '서비스 신청,<br/>결제',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '기초자료<br/>제공',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '블로거<br/>선정 및 포스팅',
       'customer-todo' => false,
-    ],
-    [
+    ),
+    array(
       'todo' => '협의 기간 동안<br/>순위 관리',
       'customer-todo' => false,
-    ],
-    [
+    ),
+    array(
       'todo' => '결과보고서<br/>제공',
       'customer-todo' => false,
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array(

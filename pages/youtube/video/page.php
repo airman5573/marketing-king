@@ -160,26 +160,26 @@
       <img src="/assets/youtube-video-3.png" alt="">
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '서비스 신청,<br/>결제',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '동영상 제작,<br/>전달',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '동영상 등록,<br/>심의',
       'customer-todo' => false,
-    ],
-    [
+    ),
+    array(
       'todo' => '서비스<br/>진행',
-    ],
-    [
+    ),
+    array(
       'todo' => '결과보고서<br/>제공',
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array(

@@ -69,24 +69,24 @@
       </div>
     </div>
   </div> <?php
-  $process = [
-    [
+  $process = array(
+    array(
       'todo' => '브랜드 검색<br/>의뢰',
       'customer-todo' => true,
-    ],
-    [
+    ),
+    array(
       'todo' => '광고 계정<br/>생성',
-    ],
-    [
+    ),
+    array(
       'todo' => '컨텐츠<br/>제안',
-    ],
-    [
+    ),
+    array(
       'todo' => '키워드<br/>등록, 검수',
-    ],
-    [
+    ),
+    array(
       'todo' => '검색광고<br/>노출',
-    ],
-  ];
+    ),
+  );
   include_with_variable(
     "/common/component/service-process.php",
     array(

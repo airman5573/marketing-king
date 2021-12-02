@@ -1,4 +1,8 @@
 <div class="container">
+  <?php 
+  if ($_GET['result'] === 'success') { ?>
+    <script> alert("문의 완료했습니다"); </script> <?php
+  } ?>
   <div class="intro mb-35">
     <p class="intro-main">
       마케팅의 왕이 궁금하신가요?<br/>
@@ -6,7 +10,7 @@
       환영합니다.
     </p>
   </div>
-  <form name="apply_form" method="post" enctype="multipart/form-data" action="apply_process.php?">
+  <form name="apply_form" method="post" enctype="multipart/form-data" action="/apply_process.php">
     <div class="form-row">
       <label class="required mb-20">구분</label>
       <div class="form-field">
@@ -110,5 +114,6 @@
       <textarea name="content" id="content" cols="30" rows="8" placeholder="문의하실 내용을 입력해주세요."></textarea>
     </div>
     <button type="submit">문의하기</button>
+    <input type="hidden" value="마케팅의왕 문의합니다" name="title">
   </form>
 </div>

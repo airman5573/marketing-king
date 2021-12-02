@@ -1,67 +1,67 @@
 <?php
-$menu = [
-  [
+$menu = array(
+  array(
     'title' => '국내 마케팅',
-    'children' => [
-      ['title' => '마케팅 풀패키지', 'link' => 'package/full_package'],
-      ['title' => 'SEO 마케팅', 'link' => 'package/seo'],
-      ['title' => '배너 + 페이스북 광고', 'link' => 'package/banner_facebook'],
-      ['title' => '배너 광고', 'link' => 'package/banner'],
-      ['title' => '페이스북 광고', 'link' => 'package/facebook'],
-      ['title' => '어플 광고', 'link' => 'package/application'],
-      ['title' => '동영상 광고', 'link' => 'package/image_motion01'],
-      ['title' => '바이럴 마케팅', 'link' => 'package/viral'],
-    ]
-  ],
-  [
+    'children' => array(
+      array('title' => '마케팅 풀패키지', 'link' => 'package/full_package'),
+      array('title' => 'SEO 마케팅', 'link' => 'package/seo'),
+      array('title' => '배너 + 페이스북 광고', 'link' => 'package/banner_facebook'),
+      array('title' => '배너 광고', 'link' => 'package/banner'),
+      array('title' => '페이스북 광고', 'link' => 'package/facebook'),
+      array('title' => '어플 광고', 'link' => 'package/application'),
+      array('title' => '동영상 광고', 'link' => 'package/image_motion01'),
+      array('title' => '바이럴 마케팅', 'link' => 'package/viral'),
+    )
+  ),
+  array(
     'title' => '해외 마케팅',
-    'children' => [
-      ['title' => '뉴욕 타임스퀘어 광고', 'link' => 'business/timessquare'],
-      ['title' => '배너 광고', 'link' => 'business/worldbanner'],
-      ['title' => '페이스북 광고', 'link' => 'business/worldfb'],
-    ]
-  ],
-  [
+    'children' => array(
+      array('title' => '뉴욕 타임스퀘어 광고', 'link' => 'business/timessquare'),
+      array('title' => '배너 광고', 'link' => 'business/worldbanner'),
+      array('title' => '페이스북 광고', 'link' => 'business/worldfb'),
+    )
+  ),
+  array(
     'title' => '국내 언론홍보',
-    'children' => [
-      ['title' => '초저가 언론홍보', 'link' => 'viral/cost'],
-      ['title' => '프리미엄 언론홍보', 'link' => 'viral/naver'],
-      ['title' => '병원 언론홍보', 'link' => 'viral/hospital'],
-      ['title' => '부동산 언론홍보', 'link' => 'viral/realestate'],
-      ['title' => 'PR배너 서비스', 'link' => 'viral/prbanner'],
-    ]
-  ],
-  [
+    'children' => array(
+      array('title' => '초저가 언론홍보', 'link' => 'viral/cost'),
+      array('title' => '프리미엄 언론홍보', 'link' => 'viral/naver'),
+      array('title' => '병원 언론홍보', 'link' => 'viral/hospital'),
+      array('title' => '부동산 언론홍보', 'link' => 'viral/realestate'),
+      array('title' => 'PR배너 서비스', 'link' => 'viral/prbanner'),
+    )
+  ),
+  array(
     'title' => '해외 언론홍보',
-    'children' => [
-      ['title' => '해외통합 언론홍보', 'link' => 'online/world'],
-      ['title' => '아메리카 홍보', 'link' => 'online/world02'],
-      ['title' => '아시아 홍보', 'link' => 'online/world03'],
-      ['title' => '유럽 홍보', 'link' => 'online/world04'],
-      ['title' => '중동 & 아프리카 홍보', 'link' => 'online/world05'],
-    ]
-  ],
-  [
+    'children' => array(
+      array('title' => '해외통합 언론홍보', 'link' => 'online/world'),
+      array('title' => '아메리카 홍보', 'link' => 'online/world02'),
+      array('title' => '아시아 홍보', 'link' => 'online/world03'),
+      array('title' => '유럽 홍보', 'link' => 'online/world04'),
+      array('title' => '중동 & 아프리카 홍보', 'link' => 'online/world05'),
+    )
+  ),
+  array(
     'title' => '유튜브 마케팅',
-    'children' => [
-      ['title' => '유튜브 마케팅', 'link' => 'youtube/youreview'],
-      ['title' => '유튜브 동영상 광고', 'link' => 'youtube/youvideo'],
-      ['title' => '유튜브 배너 광고', 'link' => 'youtube/youbanner'],
-      ['title' => '유튜브 바이럴 마케팅', 'link' => 'youtube/youviral'],
-    ]
-  ],
-  [
+    'children' => array(
+      array('title' => '유튜브 마케팅', 'link' => 'youtube/youreview'),
+      array('title' => '유튜브 동영상 광고', 'link' => 'youtube/youvideo'),
+      array('title' => '유튜브 배너 광고', 'link' => 'youtube/youbanner'),
+      array('title' => '유튜브 바이럴 마케팅', 'link' => 'youtube/youviral'),
+    )
+  ),
+  array(
     'title' => '검색 광고',
-    'children' => [
-      ['title' => '사이트 검색 광고', 'link' => 'search/sitesearch'],
-      ['title' => '브랜드 검색', 'link' => 'search/brandsearch'],
-    ]
-  ],
-  [
+    'children' => array(
+      array('title' => '사이트 검색 광고', 'link' => 'search/sitesearch'),
+      array('title' => '브랜드 검색', 'link' => 'search/brandsearch'),
+    )
+  ),
+  array(
     'title' => '상담신청',
     'link' => 'customer/apply'
-  ],
-]; ?>
+  ),
+); ?>
 
 <div class="menu-overlay"></div>
 

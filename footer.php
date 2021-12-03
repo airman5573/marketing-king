@@ -49,9 +49,9 @@
 <div id="share-modal" class="modal">
   <ul class="share-box">
 		<li style="text-align:center;"><b>SNS 공유하기</b></li>
-		<li id="kakaotalk" class="share-li"><img src="/assets/icon-kakao.png"><span>카카오톡</span></li>
+		<li id="kakaotalk" class="share-li" onClick="kakaoShare()"><img src="/assets/icon-kakao.png"><span>카카오톡</span></li>
     <li id="instagram" class="share-li"><img src="/assets/icon-instagram.svg"><span>인스타그램</span></li>
-		<li id="facebook" class="share-li"><img src="/assets/icon-facebook-2.png"><span>페이스북</span></li>
+		<li id="facebook" class="share-li" onClick="share_fb()"><img src="/assets/icon-facebook-2.png"><span>페이스북</span></li>
 		<li id="url-copy" class="share-li" onClick="CopyUrlToClipboard();"><img src="/assets/icon-share.svg"><span>URL 복사</span></li>
 	</ul>
 </div>
@@ -63,11 +63,13 @@ include_with_variable('/common/component/bottom-tab.php', array('current_path' =
 include_with_variable('/common/component/menu.php', array('current_path' => $current_path)); ?>
 </div> <!-- page -->
 
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 <script src="/common/js/menu.js"></script>
 <script src="/common/js/table-carousel.js"></script>
 <script src="/common/js/phone.js"></script>
 <script src="/common/js/family-site.js"></script>
 <script src="/common/js/modal.js"></script>
+<script src="/common/js/share.js"></script>
 </body>
 <?php
   // 파일 존재 여부 검사할때는 앞의 /를 빼고 검사한다

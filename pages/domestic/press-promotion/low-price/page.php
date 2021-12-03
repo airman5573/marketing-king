@@ -110,7 +110,7 @@
             <span>&#60;PC&#62;</span>
             <span>&#60;모바일&#62;</span>
           </div>
-          <img src="/assets/low-price-1.png" alt="">
+          <img src="/assets/low-price-1.png" alt="" class="representative-img">
         </div>
       </div>
     </div>

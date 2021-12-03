@@ -197,7 +197,7 @@
             · 전세계 최대 보도자료 뉴스 사이트인 prnewswire.com에 게재
           </p>
           <div class="img-container">
-            <img src="/assets/overseas-press-promotion-all-1.png" alt="">
+            <img src="/assets/overseas-press-promotion-all-1.png" alt="" class="representative-img">
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
   <div class="intro mb-25">
     <div class="card-type-4 mb-40">
       <div class="top">
-        <img src="/assets/times-square-card.png" alt="">
+        <img src="/assets/times-square-card.png" alt="" class="representative-img">
       </div>
       <div class="bottom bc-navy fc-white">
         <h2>뉴욕타임스퀘어</h2>

@@ -124,7 +124,7 @@
             <span>&#60;PC&#62;</span>
             <span>&#60;모바일&#62;</span>
           </div>
-          <img src="/assets/real-estate-1.png" alt="">
+          <img src="/assets/real-estate-1.png" alt="" class="representative-img">
         </div>
         <div class="blue-label">
           <div class="title">

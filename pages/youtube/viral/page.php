@@ -205,7 +205,7 @@
       </div>
     </div>
     <div class="img-container mb-30">
-      <img src="/assets/youtube-viral-marketing.png" alt="">
+      <img src="/assets/youtube-viral-marketing.png" alt="" class="representative-img">
     </div>
   </div> <?php
   $process = array(

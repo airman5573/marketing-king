@@ -139,7 +139,7 @@
             · 검색 최적화
           </p>
           <div class="img-container">
-            <img src="/assets/overseas-press-promotion-all-2.png" alt="">
+            <img src="/assets/overseas-press-promotion-all-2.png" alt="" class="representative-img">
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@
         <div class="right">PC파워링크</div>
       </div>
       <div class="img-container">
-        <img src="/assets/search-site-1.png" alt="">
+        <img src="/assets/search-site-1.png" alt="" class="representative-img">
       </div>
     </div>
     <div class="blue-label">

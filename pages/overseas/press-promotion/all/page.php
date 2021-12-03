@@ -274,7 +274,7 @@
       <div class="case mb-170">
         <div class="tag-container">
           <div class="img-container box-shadow-1--no-radius" style="width:311px;">
-            <img src="/assets/overseas-press-promotion-all-17.png" alt="">
+            <img src="/assets/overseas-press-promotion-all-17.png" alt="" class="representative-img">
           </div>
           <div class="img-container box-shadow-1--no-radius" style="width:305px; position: absolute; top: 115px; right: 0;">
             <img src="/assets/overseas-press-promotion-all-18.png" alt="">

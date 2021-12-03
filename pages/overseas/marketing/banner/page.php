@@ -102,7 +102,7 @@
           </div>
         </div>
         <div class="img-container">
-          <img src="/assets/overseas-marketing-banner-1.png" alt="">
+          <img src="/assets/overseas-marketing-banner-1.png" alt="" class="representative-img">
         </div>
       </div>
       <div class="row">

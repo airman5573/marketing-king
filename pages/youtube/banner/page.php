@@ -97,7 +97,7 @@
         </p>
         <h4 class="fc-main">신규방문자 유입</h4>
         <div class="img-container mb-40">
-          <img src="/assets/youtube-banner-1.png" alt="">
+          <img src="/assets/youtube-banner-1.png" alt="" class="representative-img">
         </div>
         <div class="blue-label">
           <div class="title">

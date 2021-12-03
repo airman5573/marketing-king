@@ -25,7 +25,7 @@
       <div class="right">모바일 브랜드 검색</div>
     </div>
     <div class="img-container">
-      <img src="/assets/search-brand-2.png" alt="">
+      <img src="/assets/search-brand-2.png" alt="" class="representative-img">
     </div>
   </div>
   <div class="row mb-45">

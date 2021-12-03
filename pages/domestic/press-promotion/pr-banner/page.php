@@ -68,7 +68,7 @@
           홍보과 광고 효과를 동시에 볼 수 있는 서비스입니다.
         </p>
         <div class="img-container mb-30">
-          <img src="/assets/pr-banner-1.png" alt="">
+          <img src="/assets/pr-banner-1.png" alt="" class="representative-img">
         </div>
         <h4 class="fw-500 ls-10 mb-10">PR배너 서비스 효과</h4>
         <div class="img-container mb-30">

@@ -107,7 +107,7 @@
           최종 결정합니다.
         </p>
         <div class="img-container box-shadow-1 py-9 px-5 mb-20">
-          <img src="/assets/marketing-application-1.png" alt="">
+          <img src="/assets/marketing-application-1.png" alt="" class="representative-img">
         </div>
         <p class="lh-30 mb-40">
           마케팅의 왕은 어플 설치 수와 긍정적인 리뷰로 광고하고자<br>

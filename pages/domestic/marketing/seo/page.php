@@ -12,7 +12,7 @@
     </p>
   </div>
   <div class="img-container mb-30">
-    <img src="/assets/seo-1.png" alt="">
+    <img src="/assets/seo-1.png" alt="" class="representative-img">
   </div>
   <p class="mb-10">
     N포탈 SEO 서비스를 진행하시면 기업이 광고를 진행하기에<br>

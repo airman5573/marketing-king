@@ -12,7 +12,7 @@
     </p>
   </div>
   <div class="img-container mb-40">
-    <img src="/assets/youtube-1.png" alt="">
+    <img src="/assets/youtube-1.png" alt="" class="representative-img">
   </div>
   <div class="card-container mb-45">
     <div class="card goto-premium-campaign card-type-3">

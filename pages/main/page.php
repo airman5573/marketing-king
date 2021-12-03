@@ -1,6 +1,6 @@
 <div class="container">
   <div class="overlay-intro mb-30">
-    <img src="/assets/main.png" alt="">
+    <img src="/assets/main.png" alt="" class="representative-img">
     <div class="overlay">
       <p>
         기업 / 기관 / 정부지원<br/>

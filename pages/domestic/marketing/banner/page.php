@@ -163,7 +163,7 @@
           </div>
         </div>
         <div class="img-container mb-30">
-          <img src="/assets/flow-banner-lg-1.png" alt="">
+          <img src="/assets/flow-banner-lg-1.png" alt="" class="representative-img">
         </div>
       </div>
       <div class="row">

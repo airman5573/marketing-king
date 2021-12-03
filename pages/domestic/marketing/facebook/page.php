@@ -80,7 +80,7 @@
           마케팅 방법입니다.
         </p>
         <div class="img-container">
-          <img src="/assets/facebook_instagram.png" alt="">
+          <img src="/assets/facebook_instagram.png" alt="" class="representative-img">
         </div>
       </div>
       <div class="row">

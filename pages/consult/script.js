@@ -10,9 +10,11 @@ let emails = $('ul.emails');
 let arrowDown = $('.arrow-down');
 arrowDown.focusin(() => {
   emails.toggleClass('show');
+  arrowDown.toggleClass('active');
 });
 arrowDown.focusout(() => {
   emails.toggleClass('show');
+  arrowDown.toggleClass('active');
 });
 let email2 = $('#email2');
 $('ul.emails li').on('mousedown', function() {
@@ -20,10 +22,8 @@ $('ul.emails li').on('mousedown', function() {
   const email = self.attr('rel');
   if (email == 'self') {
     email2.val('');
-    email2.attr('disabled', false);
   } else {
     email2.val(email);
-    email2.attr('disabled', true);
   }
 });
 

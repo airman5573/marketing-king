@@ -59,7 +59,7 @@
     <div class="form-row">
       <label for="email1" class="required">이메일</label>
       <div class="form-field form-field--email input-highlight" tabindex="1">
-        <input id="email1" name="email1" type="text"/><span>@</span><input id="email2" name="email2" type="text" disabled value="naver.com">
+        <input id="email1" name="email1" type="text"/><span>@</span><input id="email2" name="email2" type="text" placeholder="직접입력">
         <ul class="emails box-shadow-1">
           <li rel="self">직접입력</li>
           <li rel="naver.com">naver.com</li>

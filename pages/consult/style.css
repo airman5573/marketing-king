@@ -14585,9 +14585,11 @@ span {
   letter-spacing: -0.05em;
 }
 
+#page-wrapper > .container *:focus {
+  outline: none;
+}
 #page-wrapper > .container .input-highlight, #page-wrapper > .container input[type=text] {
   border: none;
-  outline: none;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(0, 0, 0, 0.15);
@@ -14608,7 +14610,6 @@ span {
   border: none;
   background-color: transparent;
   resize: none;
-  outline: none;
   font-size: 14px;
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
@@ -14688,11 +14689,16 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 16px;
-  height: 12px;
+  width: 32px;
+  height: 24px;
   position: absolute;
-  right: 20px;
+  right: 8px;
   z-index: 5;
+  transition-duration: 0.3s;
+  transition-property: all;
+}
+#page-wrapper > .container .form-row:nth-child(7) .form-field .arrow-down.active {
+  transform: rotateZ(180deg);
 }
 #page-wrapper > .container .form-row:nth-child(7) .form-field .emails {
   width: 150px;

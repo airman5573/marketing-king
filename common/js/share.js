@@ -5,11 +5,11 @@ function share_fb() {
 
 function kakaoShare() {
   const representativeImg = document.getElementsByClassName("representative-img")[0];
-  console.log("imgUrl :", representativeImg.src);
   const url = window.location.href;
   const firstP = document.getElementsByTagName("p")[0];
   const secondP = document.getElementsByTagName("p")[1];
-  Kakao.init('e38991246e5343d2d1a2a352ec70487a');
+  const APIKEY = '94ca8c7c37260672dbab4e106da3d40b';
+  Kakao.init(APIKEY);
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {

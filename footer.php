@@ -50,7 +50,6 @@
   <ul class="share-box">
 		<li style="text-align:center;"><b>SNS 공유하기</b></li>
 		<li id="kakaotalk" class="share-li" onClick="kakaoShare()"><img src="/assets/icon-kakao.png"><span>카카오톡</span></li>
-    <li id="instagram" class="share-li"><img src="/assets/icon-instagram.svg"><span>인스타그램</span></li>
 		<li id="facebook" class="share-li" onClick="share_fb()"><img src="/assets/icon-facebook-2.png"><span>페이스북</span></li>
 		<li id="url-copy" class="share-li" onClick="CopyUrlToClipboard();"><img src="/assets/icon-share.svg"><span>URL 복사</span></li>
 	</ul>
